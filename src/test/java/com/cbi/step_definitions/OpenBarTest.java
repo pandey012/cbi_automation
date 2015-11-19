@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -20,6 +21,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import cucumber.api.CucumberOptions;
 import cucumber.api.java8.En;
 import cucumber.api.junit.Cucumber;
+import cucumber.runtime.Env;
 
 
 
@@ -87,6 +89,12 @@ public class OpenBarTest implements En{
 	
 	public WebDriver getIE() 
 	{
+		Map<String, String> envMap ;
+		
+		String envBrowser  = new Env("/circle.yml").get("BROWSER_NAME");
+				//get("BROWSER_NAME");
+		System.out.println("Browser is " + envBrowser);
+		
 		DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
 	    caps.setCapability("platform", "Windows 10");
 	    caps.setCapability("version", "11");

@@ -5,3 +5,7 @@ dependencies:
 machine:
   java:
     version: oraclejdk8
+ test:
+  override:
+    BROWSER_NAME=firefox
+    
