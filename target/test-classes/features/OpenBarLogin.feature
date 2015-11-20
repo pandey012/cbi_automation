@@ -7,6 +7,6 @@ Scenario: I login with valid credentials
 		And I enter "himanshu.pandey@cbrands.com.ta" into the field with id "username"
 		And I enter "TestAdmin123" as Password into the field with id "password"
 		When I click on the element with id "Login"
-		And I wait for 20 seconds
+		And I wait for 15 seconds
 		Then I should be loggedIn
 		

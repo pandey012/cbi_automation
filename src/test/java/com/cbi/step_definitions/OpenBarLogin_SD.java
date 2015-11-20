@@ -14,7 +14,7 @@ public class OpenBarLogin_SD implements En{
 	
 	public  OpenBarLogin_SD()
 	{
-		
+
 		Given("^I Open the browser$", () -> {
 			 driver = WebDriverConfig.getIE();
 			//driver = WebDriverConfig.getLocalFirefox();
