@@ -1,24 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: com.cbi.step_definitions.RunTest
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 0, Errors: 4, Skipped: 1, Time elapsed: 21.834 sec <<< FAILURE!
-Then I should be landed on News Page "/html/body/div[1]/form/span/div/div/div[1]/div/h2/span"(Scenario: I clicked the View All News Link)  Time elapsed: 0.006 sec  <<< ERROR!
+Tests run: 25, Failures: 0, Errors: 6, Skipped: 4, Time elapsed: 18.297 sec <<< FAILURE!
+Then I should be landed on News Page "/html/body/div[1]/form/span/div/div/div[1]/div/h2/span"(Scenario: I clicked the View All News Link)  Time elapsed: 0.007 sec  <<< ERROR!
 org.openqa.selenium.InvalidSelectorException: The xpath expression '/html/body/div[1]/form/span/div/div/div[1]/div/h2/span' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 360 milliseconds
+Command duration or timeout: 344 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.0', revision: 'b7b081a', time: '2015-10-07 15:48:56'
-System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.38.60', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.42.238', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
 Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXf7a99ed5
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX5572c9e7
 *** Element info: {Using=xpath, value=/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}
-Command duration or timeout: 475 milliseconds
+Command duration or timeout: 486 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
 System info: host: 'Himanshus-MacBook-Pro.local', ip: '172.31.29.18', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_40'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=33f4bc9379284e06902b9df391ce293c, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 33f4bc9379284e06902b9df391ce293c
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=8b0239f862e5440cb5dad011b37d98ce, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 8b0239f862e5440cb5dad011b37d98ce
 *** Element info: {Using=xpath, value=/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -34,13 +34,13 @@ Session ID: 33f4bc9379284e06902b9df391ce293c
 	at com.cbi.step_definitions.OpenBarNews.lambda$new$9(OpenBarNews.java:34)
 	at ✽.Then I should be landed on News Page "/html/body/div[1]/form/span/div/div/div[1]/div/h2/span"(OpenBarNews.feature:6)
 Caused by: org.openqa.selenium.InvalidSelectorException: The xpath expression '/html/body/div[1]/form/span/div/div/div[1]/div/h2/span' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 360 milliseconds
+Command duration or timeout: 344 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.0', revision: 'b7b081a', time: '2015-10-07 15:48:56'
-System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.38.60', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.42.238', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
 Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXf7a99ed5
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX5572c9e7
 *** Element info: {Using=xpath, value=/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
@@ -72,23 +72,23 @@ Driver info: driver.version: EventFiringWebDriver
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 
-Scenario: I clicked the View All News Link  Time elapsed: 0.009 sec  <<< ERROR!
+Scenario: I clicked the View All News Link  Time elapsed: 0.01 sec  <<< ERROR!
 org.openqa.selenium.InvalidSelectorException: The xpath expression '/html/body/div[1]/form/span/div/div/div[1]/div/h2/span' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 360 milliseconds
+Command duration or timeout: 344 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.0', revision: 'b7b081a', time: '2015-10-07 15:48:56'
-System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.38.60', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.42.238', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
 Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXf7a99ed5
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX5572c9e7
 *** Element info: {Using=xpath, value=/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}
-Command duration or timeout: 475 milliseconds
+Command duration or timeout: 486 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
 System info: host: 'Himanshus-MacBook-Pro.local', ip: '172.31.29.18', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_40'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=33f4bc9379284e06902b9df391ce293c, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 33f4bc9379284e06902b9df391ce293c
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=8b0239f862e5440cb5dad011b37d98ce, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 8b0239f862e5440cb5dad011b37d98ce
 *** Element info: {Using=xpath, value=/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -104,13 +104,13 @@ Session ID: 33f4bc9379284e06902b9df391ce293c
 	at com.cbi.step_definitions.OpenBarNews.lambda$new$9(OpenBarNews.java:34)
 	at ✽.Then I should be landed on News Page "/html/body/div[1]/form/span/div/div/div[1]/div/h2/span"(OpenBarNews.feature:6)
 Caused by: org.openqa.selenium.InvalidSelectorException: The xpath expression '/html/body/div[1]/form/span/div/div/div[1]/div/h2/span' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 360 milliseconds
+Command duration or timeout: 344 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.0', revision: 'b7b081a', time: '2015-10-07 15:48:56'
-System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.38.60', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.42.238', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
 Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXf7a99ed5
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX5572c9e7
 *** Element info: {Using=xpath, value=/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
@@ -142,24 +142,24 @@ Driver info: driver.version: EventFiringWebDriver
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 
-Then I should be landed on TODO Page "//*[@id='main-content']/div[2]/div/h2"(Scenario: I clicked on View All TODO Link)  Time elapsed: 0.003 sec  <<< ERROR!
-org.openqa.selenium.InvalidSelectorException: The xpath expression '//*[@id='main-content']/div[2]/div/h2' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 391 milliseconds
+Then I should be landed on TODO Page "/html/body/div[1]/form/div[3]/div/div[2]/div/h2"(Scenario: I clicked on View All TODO Link)  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.InvalidSelectorException: The xpath expression '/html/body/div[1]/form/div[3]/div/div[2]/div/h2' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 344 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.0', revision: 'b7b081a', time: '2015-10-07 15:48:56'
-System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.38.60', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.42.238', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
 Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXf7a99ed5
-*** Element info: {Using=xpath, value=//*[@id='main-content']/div[2]/div/h2}
-Command duration or timeout: 480 milliseconds
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX5572c9e7
+*** Element info: {Using=xpath, value=/html/body/div[1]/form/div[3]/div/div[2]/div/h2}
+Command duration or timeout: 386 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
 System info: host: 'Himanshus-MacBook-Pro.local', ip: '172.31.29.18', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_40'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=33f4bc9379284e06902b9df391ce293c, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 33f4bc9379284e06902b9df391ce293c
-*** Element info: {Using=xpath, value=//*[@id='main-content']/div[2]/div/h2}
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=8b0239f862e5440cb5dad011b37d98ce, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 8b0239f862e5440cb5dad011b37d98ce
+*** Element info: {Using=xpath, value=/html/body/div[1]/form/div[3]/div/div[2]/div/h2}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -172,16 +172,16 @@ Session ID: 33f4bc9379284e06902b9df391ce293c
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
 	at com.cbi.step_definitions.OpenBarNews.lambda$new$13(OpenBarNews.java:53)
-	at ✽.Then I should be landed on TODO Page "//*[@id='main-content']/div[2]/div/h2"(OpenBarNews.feature:14)
-Caused by: org.openqa.selenium.InvalidSelectorException: The xpath expression '//*[@id='main-content']/div[2]/div/h2' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 391 milliseconds
+	at ✽.Then I should be landed on TODO Page "/html/body/div[1]/form/div[3]/div/div[2]/div/h2"(OpenBarNews.feature:14)
+Caused by: org.openqa.selenium.InvalidSelectorException: The xpath expression '/html/body/div[1]/form/div[3]/div/div[2]/div/h2' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 344 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.0', revision: 'b7b081a', time: '2015-10-07 15:48:56'
-System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.38.60', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.42.238', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
 Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXf7a99ed5
-*** Element info: {Using=xpath, value=//*[@id='main-content']/div[2]/div/h2}
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX5572c9e7
+*** Element info: {Using=xpath, value=/html/body/div[1]/form/div[3]/div/div[2]/div/h2}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
 System info: host: 'Himanshus-MacBook-Pro.local', ip: '172.31.29.18', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_40'
@@ -212,24 +212,24 @@ Driver info: driver.version: EventFiringWebDriver
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 
-Scenario: I clicked on View All TODO Link  Time elapsed: 0.009 sec  <<< ERROR!
-org.openqa.selenium.InvalidSelectorException: The xpath expression '//*[@id='main-content']/div[2]/div/h2' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 391 milliseconds
+Scenario: I clicked on View All TODO Link  Time elapsed: 0.006 sec  <<< ERROR!
+org.openqa.selenium.InvalidSelectorException: The xpath expression '/html/body/div[1]/form/div[3]/div/div[2]/div/h2' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 344 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.0', revision: 'b7b081a', time: '2015-10-07 15:48:56'
-System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.38.60', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.42.238', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
 Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXf7a99ed5
-*** Element info: {Using=xpath, value=//*[@id='main-content']/div[2]/div/h2}
-Command duration or timeout: 480 milliseconds
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX5572c9e7
+*** Element info: {Using=xpath, value=/html/body/div[1]/form/div[3]/div/div[2]/div/h2}
+Command duration or timeout: 386 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
 System info: host: 'Himanshus-MacBook-Pro.local', ip: '172.31.29.18', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_40'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=33f4bc9379284e06902b9df391ce293c, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 33f4bc9379284e06902b9df391ce293c
-*** Element info: {Using=xpath, value=//*[@id='main-content']/div[2]/div/h2}
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=8b0239f862e5440cb5dad011b37d98ce, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 8b0239f862e5440cb5dad011b37d98ce
+*** Element info: {Using=xpath, value=/html/body/div[1]/form/div[3]/div/div[2]/div/h2}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -242,16 +242,16 @@ Session ID: 33f4bc9379284e06902b9df391ce293c
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
 	at com.cbi.step_definitions.OpenBarNews.lambda$new$13(OpenBarNews.java:53)
-	at ✽.Then I should be landed on TODO Page "//*[@id='main-content']/div[2]/div/h2"(OpenBarNews.feature:14)
-Caused by: org.openqa.selenium.InvalidSelectorException: The xpath expression '//*[@id='main-content']/div[2]/div/h2' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 391 milliseconds
+	at ✽.Then I should be landed on TODO Page "/html/body/div[1]/form/div[3]/div/div[2]/div/h2"(OpenBarNews.feature:14)
+Caused by: org.openqa.selenium.InvalidSelectorException: The xpath expression '/html/body/div[1]/form/div[3]/div/div[2]/div/h2' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 344 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.0', revision: 'b7b081a', time: '2015-10-07 15:48:56'
-System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.38.60', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'WIN-SB3ER6JQ6ME', ip: '172.20.42.238', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
 Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXf7a99ed5
-*** Element info: {Using=xpath, value=//*[@id='main-content']/div[2]/div/h2}
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX5572c9e7
+*** Element info: {Using=xpath, value=/html/body/div[1]/form/div[3]/div/div[2]/div/h2}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
 System info: host: 'Himanshus-MacBook-Pro.local', ip: '172.31.29.18', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_40'
@@ -281,4 +281,14 @@ Driver info: driver.version: EventFiringWebDriver
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
+
+Given I typed "Terms Of Use" into search box "/html/body/div[1]/form/header/div/div[2]/div/div[1]/input"(Scenario: I Searched something)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.cbi.step_definitions.OpenBarNews.lambda$new$14(OpenBarNews.java:61)
+	at ✽.Given I typed "Terms Of Use" into search box "/html/body/div[1]/form/header/div/div[2]/div/div[1]/input"(OpenBarNews.feature:19)
+
+Scenario: I Searched something  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.cbi.step_definitions.OpenBarNews.lambda$new$14(OpenBarNews.java:61)
+	at ✽.Given I typed "Terms Of Use" into search box "/html/body/div[1]/form/header/div/div[2]/div/div[1]/input"(OpenBarNews.feature:19)
 

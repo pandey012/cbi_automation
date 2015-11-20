@@ -11,11 +11,11 @@ import com.cbi.helper.WebDriverConfig;
 import cucumber.api.java8.En;
 
 
-public class OpenBarNews implements En {
+public class OpenBarFeatures_SD implements En {
 	
 	WebDriver driver = null;
 	
-	public OpenBarNews()
+	public OpenBarFeatures_SD()
 	{
 		
 		Given("^I clicked on View All News Link \"([^\"]*)\"$", (String arg1) -> {
@@ -52,6 +52,24 @@ public class OpenBarNews implements En {
 		Then("^I should be landed on TODO Page \"([^\"]*)\"$", (String arg1) -> {
 			assertEquals(driver.findElement(By.xpath(arg1)).getText(),"TO DOs" );
 			// assertEquals(driver.getTitle(),"TO DO" );
+		});
+
+		
+		Given("^I typed \"([^\"]*)\" into search box \"([^\"]*)\"$", (String arg1, String arg2) -> {
+			driver = WebDriverConfig.getIE();
+			driver.findElement(By.xpath(arg2)).sendKeys(arg1);
+		});
+
+		When("^I click the search button  \"([^\"]*)\"$", (String arg1) -> {
+		    driver.findElement(By.className(arg1)).click();
+		});
+		
+		When("^I wait for search results (\\d+) seconds$", (Integer arg1) -> {
+			driver.manage().timeouts().implicitlyWait(arg1, TimeUnit.SECONDS);
+		});
+
+		Then("^I should get the search results \"([^\"]*)\"$", (String arg1) -> {
+			assertEquals(driver.findElement(By.xpath(arg1)).getText(),"TERMS OF USE" ); 
 		});
 
 		Then("^I close the browser$", () -> {

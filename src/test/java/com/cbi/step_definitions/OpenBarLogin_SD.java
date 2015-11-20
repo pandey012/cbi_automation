@@ -7,12 +7,12 @@ import org.openqa.selenium.WebDriver;
 import com.cbi.helper.WebDriverConfig;
 import cucumber.api.java8.En;
 	
-public class OpenBarTest implements En{
+public class OpenBarLogin_SD implements En{
 
 	WebDriver driver = null;
 	
 	
-	public  OpenBarTest()
+	public  OpenBarLogin_SD()
 	{
 		
 		Given("^I Open the browser$", () -> {

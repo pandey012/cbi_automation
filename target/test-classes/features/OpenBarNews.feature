@@ -12,4 +12,12 @@ Scenario: I clicked on View All TODO Link
 		When I clicked on TODO Link "/html/body/div[1]/form/div[4]/div/div/section[2]/h3/a"
 		And I wait for another 10 seconds
 		Then I should be landed on TODO Page "/html/body/div[1]/form/div[3]/div/div[2]/div/h2" 				
-		And I close the browser		
+		
+		
+
+Scenario: I Searched something
+		Given I typed "Terms Of Use" into search box "/html/body/div[1]/form/header/div/div[2]/div/div[1]/input"
+		When I click the search button  "search-btn"
+		And I wait for search results 10 seconds
+		Then I should get the search results "/html/body/div[1]/form/div[3]/div/div[2]/div/div[2]/ul/li[2]/div[1]/h4/a"
+		And I close the browser			
