@@ -17,6 +17,7 @@ public class OpenBarTest implements En{
 		
 		Given("^I Open the browser$", () -> {
 			 driver = WebDriverConfig.getIE();
+			//driver = WebDriverConfig.getLocalFirefox();
 		});
 		
 		Given("^I navigate to \"([^\"]*)\"$", (String arg1) -> {

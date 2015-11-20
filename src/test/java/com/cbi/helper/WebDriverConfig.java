@@ -2,6 +2,7 @@ package com.cbi.helper;
 
 import java.net.URL;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -75,6 +76,25 @@ public class WebDriverConfig {
 	    }
 	    return driver;
 		
+	}
+	
+	public static WebDriver getLocalFirefox()
+	{
+		DesiredCapabilities caps = DesiredCapabilities.firefox();
+	    caps.setCapability("platform", "Windows 10");
+	    caps.setCapability("version", "42");
+	    caps.setCapability("name", "OpenBar Login - Firefox Test");
+		
+	    try{
+	    	if(driver == null)
+	    		driver = new FirefoxDriver();
+	    	
+	    }
+		catch(Exception e)
+	    {
+			e.printStackTrace();;
+	    }
+	    return driver;
 	}
 	
 

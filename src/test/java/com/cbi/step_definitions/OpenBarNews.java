@@ -21,6 +21,7 @@ public class OpenBarNews implements En {
 		Given("^I clicked on View All News Link \"([^\"]*)\"$", (String arg1) -> {
 			
 			driver = WebDriverConfig.getIE();
+			//driver = WebDriverConfig.getLocalFirefox();
 			driver.findElement(By.xpath(arg1)).click();
 		});
 		
@@ -33,9 +34,29 @@ public class OpenBarNews implements En {
 			assertEquals(driver.findElement(By.xpath(arg1)).getText(),"NEWS" );
 		});
 		
-		Then("^I close the browser$", () -> {
-		   driver.quit();
+		
+		
+		Given("^I am on OpenBar HomePage \"([^\"]*)\"$", (String arg1) -> {
+			driver = WebDriverConfig.getIE();
 		});
+		
+		Given("^I wait for another (\\d+) seconds$", (Integer arg1) -> {
+			driver.manage().timeouts().implicitlyWait(arg1, TimeUnit.SECONDS);
+		});
+
+		When("^I clicked on TODO Link \"([^\"]*)\"$", (String arg1) -> {
+			driver.findElement(By.xpath(arg1)).click();
+		});
+
+		Then("^I should be landed on TODO Page \"([^\"]*)\"$", (String arg1) -> {
+			assertEquals(driver.findElement(By.xpath(arg1)).getText(),"TO DOs" );
+			// assertEquals(driver.getTitle(),"TO DO" );
+		});
+
+		Then("^I close the browser$", () -> {
+			driver.quit();
+		});
+
 
 	}
 	

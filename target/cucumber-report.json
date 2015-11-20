@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6471401452,
+              "duration": 6098696948,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 3906806493,
+              "duration": 3223814793,
               "status": "passed"
             },
             "line": 5,
@@ -36,13 +36,13 @@
                   "offset": 15
                 }
               ],
-              "location": "OpenBarTest.java:22"
+              "location": "OpenBarTest.java:23"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 70127300,
+              "duration": 60033500,
               "status": "passed"
             },
             "line": 6,
@@ -54,13 +54,13 @@
                   "offset": 11
                 }
               ],
-              "location": "OpenBarTest.java:40"
+              "location": "OpenBarTest.java:41"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 862977842,
+              "duration": 773514085,
               "status": "passed"
             },
             "line": 7,
@@ -76,13 +76,13 @@
                   "offset": 65
                 }
               ],
-              "location": "OpenBarTest.java:26"
+              "location": "OpenBarTest.java:27"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1140023845,
+              "duration": 834478947,
               "status": "passed"
             },
             "line": 8,
@@ -98,13 +98,13 @@
                   "offset": 59
                 }
               ],
-              "location": "OpenBarTest.java:31"
+              "location": "OpenBarTest.java:32"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 614671392,
+              "duration": 730241329,
               "status": "passed"
             },
             "line": 9,
@@ -116,13 +116,13 @@
                   "offset": 32
                 }
               ],
-              "location": "OpenBarTest.java:36"
+              "location": "OpenBarTest.java:37"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 66159470,
+              "duration": 75663618,
               "status": "passed"
             },
             "line": 10,
@@ -134,19 +134,19 @@
                   "offset": 11
                 }
               ],
-              "location": "OpenBarTest.java:40"
+              "location": "OpenBarTest.java:41"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5154367091,
+              "duration": 4672073219,
               "status": "passed"
             },
             "line": 11,
             "name": "I should be loggedIn",
             "match": {
-              "location": "OpenBarTest.java:44"
+              "location": "OpenBarTest.java:45"
             },
             "keyword": "Then "
           }
@@ -166,13 +166,13 @@
         "line": 3,
         "name": "I clicked the View All News Link",
         "description": "",
-        "id": "openbar-news;i-clicked-the-view-all-news-link",
+        "id": "openbar-news-and-todo;i-clicked-the-view-all-news-link",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 550297744,
+              "duration": 469292566,
               "status": "passed"
             },
             "line": 4,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 36614735,
+              "duration": 55088420,
               "status": "passed"
             },
             "line": 5,
@@ -202,14 +202,15 @@
                   "offset": 23
                 }
               ],
-              "location": "OpenBarNews.java:27"
+              "location": "OpenBarNews.java:28"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2478502864,
-              "status": "passed"
+              "duration": 798039111,
+              "error_message": "org.openqa.selenium.InvalidSelectorException: The xpath expression \u0027/html/body/div[1]/form/span/div/div/div[1]/div/h2/span\u0027 cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 656 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.0\u0027, revision: \u0027b7b081a\u0027, time: \u00272015-10-07 15:48:56\u0027\nSystem info: host: \u0027WIN-SB3ER6JQ6ME\u0027, ip: \u0027172.20.35.14\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout\u003d0, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, pageLoadStrategy\u003dnormal, ie.usePerProcessProxy\u003dfalse, ignoreZoomSetting\u003dfalse, handlesAlerts\u003dtrue, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, requireWindowFocus\u003dfalse, browserName\u003dinternet explorer, initialBrowserUrl\u003dabout:blank, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dfalse, enableElementCacheCleanup\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX853ef387\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}\nCommand duration or timeout: 789 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.2\u0027, revision: \u002741bccdd10cf2c0560f637404c2d96164b67d9d67\u0027, time: \u00272015-10-09 13:08:06\u0027\nSystem info: host: \u0027Himanshus-MacBook-Pro.local\u0027, ip: \u0027172.31.29.18\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.11.1\u0027, java.version: \u00271.8.0_40\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{browserAttachTimeout\u003d0, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, pageLoadStrategy\u003dnormal, ie.usePerProcessProxy\u003dfalse, ignoreZoomSetting\u003dfalse, hasMetadata\u003dtrue, handlesAlerts\u003dtrue, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, webdriver.remote.sessionid\u003d530c67810bfe4f0aa13b37335fef6b8e, requireWindowFocus\u003dfalse, takesScreenshot\u003dtrue, browserName\u003dinternet explorer, initialBrowserUrl\u003dabout:blank, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dfalse, enableElementCacheCleanup\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: 530c67810bfe4f0aa13b37335fef6b8e\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)\n\tat com.cbi.step_definitions.OpenBarNews.lambda$new$9(OpenBarNews.java:34)\n\tat ✽.Then I should be landed on News Page \"/html/body/div[1]/form/span/div/div/div[1]/div/h2/span\"(OpenBarNews.feature:6)\nCaused by: org.openqa.selenium.InvalidSelectorException: The xpath expression \u0027/html/body/div[1]/form/span/div/div/div[1]/div/h2/span\u0027 cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 656 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.0\u0027, revision: \u0027b7b081a\u0027, time: \u00272015-10-07 15:48:56\u0027\nSystem info: host: \u0027WIN-SB3ER6JQ6ME\u0027, ip: \u0027172.20.35.14\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout\u003d0, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, pageLoadStrategy\u003dnormal, ie.usePerProcessProxy\u003dfalse, ignoreZoomSetting\u003dfalse, handlesAlerts\u003dtrue, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, requireWindowFocus\u003dfalse, browserName\u003dinternet explorer, initialBrowserUrl\u003dabout:blank, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dfalse, enableElementCacheCleanup\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX853ef387\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.2\u0027, revision: \u002741bccdd10cf2c0560f637404c2d96164b67d9d67\u0027, time: \u00272015-10-09 13:08:06\u0027\nSystem info: host: \u0027Himanshus-MacBook-Pro.local\u0027, ip: \u0027172.31.29.18\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.11.1\u0027, java.version: \u00271.8.0_40\u0027\nDriver info: driver.version: EventFiringWebDriver\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n\tat java.lang.reflect.Method.invoke(Unknown Source)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)\n\tat com.sun.proxy.$Proxy1.findElement(Unknown Source)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)\n\tat java.util.concurrent.FutureTask.run(Unknown Source)\n\tat org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n\tat java.lang.Thread.run(Unknown Source)\n",
+              "status": "failed"
             },
             "line": 6,
             "name": "I should be landed on News Page \"/html/body/div[1]/form/span/div/div/div[1]/div/h2/span\"",
@@ -220,28 +221,124 @@
                   "offset": 33
                 }
               ],
-              "location": "OpenBarNews.java:32"
+              "location": "OpenBarNews.java:33"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "I clicked on View All TODO Link",
+        "description": "",
+        "id": "openbar-news-and-todo;i-clicked-on-view-all-todo-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 296897,
+              "error_message": "java.lang.NullPointerException\n\tat com.cbi.step_definitions.OpenBarNews.lambda$new$10(OpenBarNews.java:40)\n\tat ✽.Given I am on OpenBar HomePage \"https://cbrands--edgeforce--c.cs17.visual.force.com/apex/CBI_Home?sfdc.tabName\u003d01rG0000000fTpR\"(OpenBarNews.feature:10)\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I am on OpenBar HomePage \"https://cbrands--edgeforce--c.cs17.visual.force.com/apex/CBI_Home?sfdc.tabName\u003d01rG0000000fTpR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://cbrands--edgeforce--c.cs17.visual.force.com/apex/CBI_Home?sfdc.tabName\u003d01rG0000000fTpR",
+                  "offset": 26
+                }
+              ],
+              "location": "OpenBarNews.java:39"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I wait for another 10 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 19
+                }
+              ],
+              "location": "OpenBarNews.java:43"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I clicked on TODO Link \"/html/body/div[1]/form/div[4]/div/div/section[2]/h3/a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/html/body/div[1]/form/div[4]/div/div/section[2]/h3/a",
+                  "offset": 24
+                }
+              ],
+              "location": "OpenBarNews.java:47"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I wait for another 10 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 19
+                }
+              ],
+              "location": "OpenBarNews.java:43"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I should be landed on TODO Page \"//*[@id\u003d\u0027main-content\u0027]/div[2]/div/h2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//*[@id\u003d\u0027main-content\u0027]/div[2]/div/h2",
+                  "offset": 33
+                }
+              ],
+              "location": "OpenBarNews.java:51"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 119076899,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 7,
+            "line": 15,
             "name": "I close the browser",
             "match": {
-              "location": "OpenBarNews.java:36"
+              "location": "OpenBarNews.java:56"
             },
             "keyword": "And "
           }
         ]
       }
     ],
-    "name": "OpenBar News",
+    "name": "OpenBar News and ToDo",
     "description": "",
-    "id": "openbar-news",
+    "id": "openbar-news-and-todo",
     "keyword": "Feature",
     "uri": "OpenBarNews.feature"
   }
