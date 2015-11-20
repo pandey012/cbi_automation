@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6098696948,
+              "duration": 7167342336,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 3223814793,
+              "duration": 3431567070,
               "status": "passed"
             },
             "line": 5,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 60033500,
+              "duration": 67681622,
               "status": "passed"
             },
             "line": 6,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 773514085,
+              "duration": 1079006400,
               "status": "passed"
             },
             "line": 7,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 834478947,
+              "duration": 1147994587,
               "status": "passed"
             },
             "line": 8,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 730241329,
+              "duration": 2192587872,
               "status": "passed"
             },
             "line": 9,
@@ -122,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 75663618,
+              "duration": 59914718,
               "status": "passed"
             },
             "line": 10,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 4672073219,
+              "duration": 2715342375,
               "status": "passed"
             },
             "line": 11,
@@ -172,7 +172,7 @@
         "steps": [
           {
             "result": {
-              "duration": 469292566,
+              "duration": 562217584,
               "status": "passed"
             },
             "line": 4,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 55088420,
+              "duration": 57291518,
               "status": "passed"
             },
             "line": 5,
@@ -208,8 +208,8 @@
           },
           {
             "result": {
-              "duration": 798039111,
-              "error_message": "org.openqa.selenium.InvalidSelectorException: The xpath expression \u0027/html/body/div[1]/form/span/div/div/div[1]/div/h2/span\u0027 cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 656 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.0\u0027, revision: \u0027b7b081a\u0027, time: \u00272015-10-07 15:48:56\u0027\nSystem info: host: \u0027WIN-SB3ER6JQ6ME\u0027, ip: \u0027172.20.35.14\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout\u003d0, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, pageLoadStrategy\u003dnormal, ie.usePerProcessProxy\u003dfalse, ignoreZoomSetting\u003dfalse, handlesAlerts\u003dtrue, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, requireWindowFocus\u003dfalse, browserName\u003dinternet explorer, initialBrowserUrl\u003dabout:blank, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dfalse, enableElementCacheCleanup\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX853ef387\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}\nCommand duration or timeout: 789 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.2\u0027, revision: \u002741bccdd10cf2c0560f637404c2d96164b67d9d67\u0027, time: \u00272015-10-09 13:08:06\u0027\nSystem info: host: \u0027Himanshus-MacBook-Pro.local\u0027, ip: \u0027172.31.29.18\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.11.1\u0027, java.version: \u00271.8.0_40\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{browserAttachTimeout\u003d0, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, pageLoadStrategy\u003dnormal, ie.usePerProcessProxy\u003dfalse, ignoreZoomSetting\u003dfalse, hasMetadata\u003dtrue, handlesAlerts\u003dtrue, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, webdriver.remote.sessionid\u003d530c67810bfe4f0aa13b37335fef6b8e, requireWindowFocus\u003dfalse, takesScreenshot\u003dtrue, browserName\u003dinternet explorer, initialBrowserUrl\u003dabout:blank, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dfalse, enableElementCacheCleanup\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: 530c67810bfe4f0aa13b37335fef6b8e\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)\n\tat com.cbi.step_definitions.OpenBarNews.lambda$new$9(OpenBarNews.java:34)\n\tat ✽.Then I should be landed on News Page \"/html/body/div[1]/form/span/div/div/div[1]/div/h2/span\"(OpenBarNews.feature:6)\nCaused by: org.openqa.selenium.InvalidSelectorException: The xpath expression \u0027/html/body/div[1]/form/span/div/div/div[1]/div/h2/span\u0027 cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 656 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.0\u0027, revision: \u0027b7b081a\u0027, time: \u00272015-10-07 15:48:56\u0027\nSystem info: host: \u0027WIN-SB3ER6JQ6ME\u0027, ip: \u0027172.20.35.14\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout\u003d0, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, pageLoadStrategy\u003dnormal, ie.usePerProcessProxy\u003dfalse, ignoreZoomSetting\u003dfalse, handlesAlerts\u003dtrue, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, requireWindowFocus\u003dfalse, browserName\u003dinternet explorer, initialBrowserUrl\u003dabout:blank, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dfalse, enableElementCacheCleanup\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX853ef387\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.2\u0027, revision: \u002741bccdd10cf2c0560f637404c2d96164b67d9d67\u0027, time: \u00272015-10-09 13:08:06\u0027\nSystem info: host: \u0027Himanshus-MacBook-Pro.local\u0027, ip: \u0027172.31.29.18\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.11.1\u0027, java.version: \u00271.8.0_40\u0027\nDriver info: driver.version: EventFiringWebDriver\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n\tat java.lang.reflect.Method.invoke(Unknown Source)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)\n\tat com.sun.proxy.$Proxy1.findElement(Unknown Source)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)\n\tat java.util.concurrent.FutureTask.run(Unknown Source)\n\tat org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n\tat java.lang.Thread.run(Unknown Source)\n",
+              "duration": 482572978,
+              "error_message": "org.openqa.selenium.InvalidSelectorException: The xpath expression \u0027/html/body/div[1]/form/span/div/div/div[1]/div/h2/span\u0027 cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 360 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.0\u0027, revision: \u0027b7b081a\u0027, time: \u00272015-10-07 15:48:56\u0027\nSystem info: host: \u0027WIN-SB3ER6JQ6ME\u0027, ip: \u0027172.20.38.60\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout\u003d0, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, pageLoadStrategy\u003dnormal, ie.usePerProcessProxy\u003dfalse, ignoreZoomSetting\u003dfalse, handlesAlerts\u003dtrue, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, requireWindowFocus\u003dfalse, browserName\u003dinternet explorer, initialBrowserUrl\u003dabout:blank, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dfalse, enableElementCacheCleanup\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXf7a99ed5\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}\nCommand duration or timeout: 475 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.2\u0027, revision: \u002741bccdd10cf2c0560f637404c2d96164b67d9d67\u0027, time: \u00272015-10-09 13:08:06\u0027\nSystem info: host: \u0027Himanshus-MacBook-Pro.local\u0027, ip: \u0027172.31.29.18\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.11.1\u0027, java.version: \u00271.8.0_40\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{browserAttachTimeout\u003d0, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, pageLoadStrategy\u003dnormal, ie.usePerProcessProxy\u003dfalse, ignoreZoomSetting\u003dfalse, hasMetadata\u003dtrue, handlesAlerts\u003dtrue, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, webdriver.remote.sessionid\u003d33f4bc9379284e06902b9df391ce293c, requireWindowFocus\u003dfalse, takesScreenshot\u003dtrue, browserName\u003dinternet explorer, initialBrowserUrl\u003dabout:blank, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dfalse, enableElementCacheCleanup\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: 33f4bc9379284e06902b9df391ce293c\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)\n\tat com.cbi.step_definitions.OpenBarNews.lambda$new$9(OpenBarNews.java:34)\n\tat ✽.Then I should be landed on News Page \"/html/body/div[1]/form/span/div/div/div[1]/div/h2/span\"(OpenBarNews.feature:6)\nCaused by: org.openqa.selenium.InvalidSelectorException: The xpath expression \u0027/html/body/div[1]/form/span/div/div/div[1]/div/h2/span\u0027 cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 360 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.0\u0027, revision: \u0027b7b081a\u0027, time: \u00272015-10-07 15:48:56\u0027\nSystem info: host: \u0027WIN-SB3ER6JQ6ME\u0027, ip: \u0027172.20.38.60\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout\u003d0, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, pageLoadStrategy\u003dnormal, ie.usePerProcessProxy\u003dfalse, ignoreZoomSetting\u003dfalse, handlesAlerts\u003dtrue, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, requireWindowFocus\u003dfalse, browserName\u003dinternet explorer, initialBrowserUrl\u003dabout:blank, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dfalse, enableElementCacheCleanup\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXf7a99ed5\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/form/span/div/div/div[1]/div/h2/span}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.2\u0027, revision: \u002741bccdd10cf2c0560f637404c2d96164b67d9d67\u0027, time: \u00272015-10-09 13:08:06\u0027\nSystem info: host: \u0027Himanshus-MacBook-Pro.local\u0027, ip: \u0027172.31.29.18\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.11.1\u0027, java.version: \u00271.8.0_40\u0027\nDriver info: driver.version: EventFiringWebDriver\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n\tat java.lang.reflect.Method.invoke(Unknown Source)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)\n\tat com.sun.proxy.$Proxy1.findElement(Unknown Source)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)\n\tat java.util.concurrent.FutureTask.run(Unknown Source)\n\tat org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n\tat java.lang.Thread.run(Unknown Source)\n",
               "status": "failed"
             },
             "line": 6,
@@ -237,9 +237,8 @@
         "steps": [
           {
             "result": {
-              "duration": 296897,
-              "error_message": "java.lang.NullPointerException\n\tat com.cbi.step_definitions.OpenBarNews.lambda$new$10(OpenBarNews.java:40)\n\tat ✽.Given I am on OpenBar HomePage \"https://cbrands--edgeforce--c.cs17.visual.force.com/apex/CBI_Home?sfdc.tabName\u003d01rG0000000fTpR\"(OpenBarNews.feature:10)\n",
-              "status": "failed"
+              "duration": 1114176272,
+              "status": "passed"
             },
             "line": 10,
             "name": "I am on OpenBar HomePage \"https://cbrands--edgeforce--c.cs17.visual.force.com/apex/CBI_Home?sfdc.tabName\u003d01rG0000000fTpR\"",
@@ -256,7 +255,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 76777758,
+              "status": "passed"
             },
             "line": 11,
             "name": "I wait for another 10 seconds",
@@ -267,13 +267,14 @@
                   "offset": 19
                 }
               ],
-              "location": "OpenBarNews.java:43"
+              "location": "OpenBarNews.java:44"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 548622148,
+              "status": "passed"
             },
             "line": 12,
             "name": "I clicked on TODO Link \"/html/body/div[1]/form/div[4]/div/div/section[2]/h3/a\"",
@@ -284,13 +285,14 @@
                   "offset": 24
                 }
               ],
-              "location": "OpenBarNews.java:47"
+              "location": "OpenBarNews.java:48"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 57993557,
+              "status": "passed"
             },
             "line": 13,
             "name": "I wait for another 10 seconds",
@@ -301,13 +303,15 @@
                   "offset": 19
                 }
               ],
-              "location": "OpenBarNews.java:43"
+              "location": "OpenBarNews.java:44"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 480596258,
+              "error_message": "org.openqa.selenium.InvalidSelectorException: The xpath expression \u0027//*[@id\u003d\u0027main-content\u0027]/div[2]/div/h2\u0027 cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 391 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.0\u0027, revision: \u0027b7b081a\u0027, time: \u00272015-10-07 15:48:56\u0027\nSystem info: host: \u0027WIN-SB3ER6JQ6ME\u0027, ip: \u0027172.20.38.60\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout\u003d0, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, pageLoadStrategy\u003dnormal, ie.usePerProcessProxy\u003dfalse, ignoreZoomSetting\u003dfalse, handlesAlerts\u003dtrue, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, requireWindowFocus\u003dfalse, browserName\u003dinternet explorer, initialBrowserUrl\u003dabout:blank, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dfalse, enableElementCacheCleanup\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXf7a99ed5\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\u0027main-content\u0027]/div[2]/div/h2}\nCommand duration or timeout: 480 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.2\u0027, revision: \u002741bccdd10cf2c0560f637404c2d96164b67d9d67\u0027, time: \u00272015-10-09 13:08:06\u0027\nSystem info: host: \u0027Himanshus-MacBook-Pro.local\u0027, ip: \u0027172.31.29.18\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.11.1\u0027, java.version: \u00271.8.0_40\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{browserAttachTimeout\u003d0, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, pageLoadStrategy\u003dnormal, ie.usePerProcessProxy\u003dfalse, ignoreZoomSetting\u003dfalse, hasMetadata\u003dtrue, handlesAlerts\u003dtrue, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, webdriver.remote.sessionid\u003d33f4bc9379284e06902b9df391ce293c, requireWindowFocus\u003dfalse, takesScreenshot\u003dtrue, browserName\u003dinternet explorer, initialBrowserUrl\u003dabout:blank, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dfalse, enableElementCacheCleanup\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: 33f4bc9379284e06902b9df391ce293c\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\u0027main-content\u0027]/div[2]/div/h2}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)\n\tat com.cbi.step_definitions.OpenBarNews.lambda$new$13(OpenBarNews.java:53)\n\tat ✽.Then I should be landed on TODO Page \"//*[@id\u003d\u0027main-content\u0027]/div[2]/div/h2\"(OpenBarNews.feature:14)\nCaused by: org.openqa.selenium.InvalidSelectorException: The xpath expression \u0027//*[@id\u003d\u0027main-content\u0027]/div[2]/div/h2\u0027 cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 391 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.0\u0027, revision: \u0027b7b081a\u0027, time: \u00272015-10-07 15:48:56\u0027\nSystem info: host: \u0027WIN-SB3ER6JQ6ME\u0027, ip: \u0027172.20.38.60\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout\u003d0, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, pageLoadStrategy\u003dnormal, ie.usePerProcessProxy\u003dfalse, ignoreZoomSetting\u003dfalse, handlesAlerts\u003dtrue, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, requireWindowFocus\u003dfalse, browserName\u003dinternet explorer, initialBrowserUrl\u003dabout:blank, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dfalse, enableElementCacheCleanup\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXf7a99ed5\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\u0027main-content\u0027]/div[2]/div/h2}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.48.2\u0027, revision: \u002741bccdd10cf2c0560f637404c2d96164b67d9d67\u0027, time: \u00272015-10-09 13:08:06\u0027\nSystem info: host: \u0027Himanshus-MacBook-Pro.local\u0027, ip: \u0027172.31.29.18\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.11.1\u0027, java.version: \u00271.8.0_40\u0027\nDriver info: driver.version: EventFiringWebDriver\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n\tat java.lang.reflect.Method.invoke(Unknown Source)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)\n\tat com.sun.proxy.$Proxy1.findElement(Unknown Source)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)\n\tat java.util.concurrent.FutureTask.run(Unknown Source)\n\tat org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n\tat java.lang.Thread.run(Unknown Source)\n",
+              "status": "failed"
             },
             "line": 14,
             "name": "I should be landed on TODO Page \"//*[@id\u003d\u0027main-content\u0027]/div[2]/div/h2\"",
@@ -318,7 +322,7 @@
                   "offset": 33
                 }
               ],
-              "location": "OpenBarNews.java:51"
+              "location": "OpenBarNews.java:52"
             },
             "keyword": "Then "
           },
@@ -329,7 +333,7 @@
             "line": 15,
             "name": "I close the browser",
             "match": {
-              "location": "OpenBarNews.java:56"
+              "location": "OpenBarNews.java:57"
             },
             "keyword": "And "
           }

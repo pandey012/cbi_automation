@@ -11,5 +11,5 @@ Scenario: I clicked on View All TODO Link
 		And I wait for another 10 seconds
 		When I clicked on TODO Link "/html/body/div[1]/form/div[4]/div/div/section[2]/h3/a"
 		And I wait for another 10 seconds
-		Then I should be landed on TODO Page "//*[@id='main-content']/div[2]/div/h2" 				
+		Then I should be landed on TODO Page "/html/body/div[1]/form/div[3]/div/div[2]/div/h2" 				
 		And I close the browser		
