@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10213972289,
+              "duration": 12111746176,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 5834831543,
+              "duration": 3951134524,
               "status": "passed"
             },
             "line": 5,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 144626365,
+              "duration": 55141154,
               "status": "passed"
             },
             "line": 6,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 1419754710,
+              "duration": 2032047841,
               "status": "passed"
             },
             "line": 7,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 939159669,
+              "duration": 2401321357,
               "status": "passed"
             },
             "line": 8,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 939236487,
+              "duration": 834650604,
               "status": "passed"
             },
             "line": 9,
@@ -122,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 78417953,
+              "duration": 61197387,
               "status": "passed"
             },
             "line": 10,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 4623891933,
+              "duration": 5266821087,
               "status": "passed"
             },
             "line": 11,
@@ -172,7 +172,7 @@
         "steps": [
           {
             "result": {
-              "duration": 722395930,
+              "duration": 724557493,
               "status": "passed"
             },
             "line": 4,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 73498685,
+              "duration": 58860570,
               "status": "passed"
             },
             "line": 5,
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 1514331167,
+              "duration": 1486073633,
               "status": "passed"
             },
             "line": 6,
@@ -236,7 +236,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1969950243,
+              "duration": 1684855680,
               "status": "passed"
             },
             "line": 10,
@@ -254,7 +254,7 @@
           },
           {
             "result": {
-              "duration": 58065362,
+              "duration": 58731074,
               "status": "passed"
             },
             "line": 11,
@@ -272,7 +272,7 @@
           },
           {
             "result": {
-              "duration": 868437812,
+              "duration": 793519196,
               "status": "passed"
             },
             "line": 12,
@@ -290,7 +290,7 @@
           },
           {
             "result": {
-              "duration": 59105812,
+              "duration": 71795484,
               "status": "passed"
             },
             "line": 13,
@@ -308,7 +308,7 @@
           },
           {
             "result": {
-              "duration": 860568887,
+              "duration": 1475212429,
               "status": "passed"
             },
             "line": 14,
@@ -323,99 +323,16 @@
               "location": "OpenBarFeatures_SD.java:52"
             },
             "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 18,
-        "name": "I Searched something",
-        "description": "",
-        "id": "openbar-news-and-todo;i-searched-something",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 430506,
-              "error_message": "java.lang.NullPointerException\n\tat com.cbi.step_definitions.OpenBarFeatures_SD.lambda$new$14(OpenBarFeatures_SD.java:60)\n\tat ✽.When I typed \"Terms Of Use\" into search box \"/html/body/div[1]/form/header/div/div[2]/div/div[1]/input\"(OpenBarNews.feature:19)\n",
-              "status": "failed"
-            },
-            "line": 19,
-            "name": "I typed \"Terms Of Use\" into search box \"/html/body/div[1]/form/header/div/div[2]/div/div[1]/input\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Terms Of Use",
-                  "offset": 9
-                },
-                {
-                  "val": "/html/body/div[1]/form/header/div/div[2]/div/div[1]/input",
-                  "offset": 40
-                }
-              ],
-              "location": "OpenBarFeatures_SD.java:58"
-            },
-            "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 132123227,
+              "status": "passed"
             },
-            "line": 20,
-            "name": "I click the search button  \"search-btn\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "search-btn",
-                  "offset": 28
-                }
-              ],
-              "location": "OpenBarFeatures_SD.java:63"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 21,
-            "name": "I wait for search results 10 seconds",
-            "match": {
-              "arguments": [
-                {
-                  "val": "10",
-                  "offset": 26
-                }
-              ],
-              "location": "OpenBarFeatures_SD.java:67"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 22,
-            "name": "I should get the search results \"/html/body/div[1]/form/div[3]/div/div[2]/div/div[2]/ul/li[2]/div[1]/h4/a\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "/html/body/div[1]/form/div[3]/div/div[2]/div/div[2]/ul/li[2]/div[1]/h4/a",
-                  "offset": 33
-                }
-              ],
-              "location": "OpenBarFeatures_SD.java:71"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 23,
+            "line": 15,
             "name": "I close the browser",
             "match": {
-              "location": "OpenBarFeatures_SD.java:75"
+              "location": "OpenBarFeatures_SD.java:57"
             },
             "keyword": "And "
           }

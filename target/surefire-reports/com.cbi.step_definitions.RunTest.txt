@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.cbi.step_definitions.RunTest
 -------------------------------------------------------------------------------
-Tests run: 25, Failures: 0, Errors: 2, Skipped: 4, Time elapsed: 31.08 sec <<< FAILURE!
-When I typed "Terms Of Use" into search box "/html/body/div[1]/form/header/div/div[2]/div/div[1]/input"(Scenario: I Searched something)  Time elapsed: 0.002 sec  <<< ERROR!
-java.lang.NullPointerException
-	at com.cbi.step_definitions.OpenBarFeatures_SD.lambda$new$14(OpenBarFeatures_SD.java:60)
-	at ✽.When I typed "Terms Of Use" into search box "/html/body/div[1]/form/header/div/div[2]/div/div[1]/input"(OpenBarNews.feature:19)
-
-Scenario: I Searched something  Time elapsed: 0.003 sec  <<< ERROR!
-java.lang.NullPointerException
-	at com.cbi.step_definitions.OpenBarFeatures_SD.lambda$new$14(OpenBarFeatures_SD.java:60)
-	at ✽.When I typed "Terms Of Use" into search box "/html/body/div[1]/form/header/div/div[2]/div/div[1]/input"(OpenBarNews.feature:19)
-
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.76 sec

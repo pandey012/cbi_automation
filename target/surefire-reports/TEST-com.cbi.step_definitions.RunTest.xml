@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="25" failures="0" name="com.cbi.step_definitions.RunTest" time="0.03" errors="2" skipped="4">
+<testsuite tests="20" failures="0" name="com.cbi.step_definitions.RunTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib"/>
@@ -64,45 +64,22 @@
   </properties>
   <testcase classname="Scenario: I login with valid credentials" name="Given I Open the browser" time="0.001"/>
   <testcase classname="Scenario: I login with valid credentials" name="Given I navigate to &quot;https://cbrands--edgeforce--c.cs17.visual.force.com/apex/CBI_Home?sfdc.tabName=01rG0000000fTpR&quot;" time="0"/>
-  <testcase classname="Scenario: I login with valid credentials" name="And I wait for 10 seconds" time="0.001"/>
+  <testcase classname="Scenario: I login with valid credentials" name="And I wait for 10 seconds" time="0"/>
   <testcase classname="Scenario: I login with valid credentials" name="And I enter &quot;himanshu.pandey@cbrands.com.ta&quot; into the field with id &quot;username&quot;" time="0"/>
   <testcase classname="Scenario: I login with valid credentials" name="And I enter &quot;TestAdmin123&quot; as Password into the field with id &quot;password&quot;" time="0"/>
   <testcase classname="Scenario: I login with valid credentials" name="When I click on the element with id &quot;Login&quot;" time="0"/>
   <testcase classname="Scenario: I login with valid credentials" name="And I wait for 20 seconds" time="0"/>
   <testcase classname="Scenario: I login with valid credentials" name="Then I should be loggedIn" time="0"/>
-  <testcase classname="Scenario: I login with valid credentials" name="Scenario: I login with valid credentials" time="0.007"/>
+  <testcase classname="Scenario: I login with valid credentials" name="Scenario: I login with valid credentials" time="0"/>
   <testcase classname="Scenario: I clicked the View All News Link" name="Given I clicked on View All News Link &quot;/html/body/div[1]/form/div[4]/div/div/section[1]/h3/a&quot;" time="0"/>
   <testcase classname="Scenario: I clicked the View All News Link" name="When I wait for browser for 5 seconds" time="0"/>
   <testcase classname="Scenario: I clicked the View All News Link" name="Then I should be landed on News Page &quot;/html/body/div[1]/form/span/div/div/div[1]/div/h2/span&quot;" time="0"/>
-  <testcase classname="Scenario: I clicked the View All News Link" name="Scenario: I clicked the View All News Link" time="0.001"/>
+  <testcase classname="Scenario: I clicked the View All News Link" name="Scenario: I clicked the View All News Link" time="0"/>
   <testcase classname="Scenario: I clicked on View All TODO Link" name="Given I am on OpenBar HomePage &quot;https://cbrands--edgeforce--c.cs17.visual.force.com/apex/CBI_Home?sfdc.tabName=01rG0000000fTpR&quot;" time="0"/>
   <testcase classname="Scenario: I clicked on View All TODO Link" name="And I wait for another 10 seconds" time="0"/>
   <testcase classname="Scenario: I clicked on View All TODO Link" name="When I clicked on TODO Link &quot;/html/body/div[1]/form/div[4]/div/div/section[2]/h3/a&quot;" time="0"/>
   <testcase classname="Scenario: I clicked on View All TODO Link" name="And I wait for another 10 seconds" time="0"/>
   <testcase classname="Scenario: I clicked on View All TODO Link" name="Then I should be landed on TODO Page &quot;/html/body/div[1]/form/div[3]/div/div[2]/div/h2&quot;" time="0"/>
-  <testcase classname="Scenario: I clicked on View All TODO Link" name="Scenario: I clicked on View All TODO Link" time="0.001"/>
-  <testcase classname="Scenario: I Searched something" name="When I typed &quot;Terms Of Use&quot; into search box &quot;/html/body/div[1]/form/header/div/div[2]/div/div[1]/input&quot;" time="0.002">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.cbi.step_definitions.OpenBarFeatures_SD.lambda$new$14(OpenBarFeatures_SD.java:60)
-	at ✽.When I typed &quot;Terms Of Use&quot; into search box &quot;/html/body/div[1]/form/header/div/div[2]/div/div[1]/input&quot;(OpenBarNews.feature:19)
-</error>
-  </testcase>
-  <testcase classname="Scenario: I Searched something" name="Scenario: I Searched something" time="0.003">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.cbi.step_definitions.OpenBarFeatures_SD.lambda$new$14(OpenBarFeatures_SD.java:60)
-	at ✽.When I typed &quot;Terms Of Use&quot; into search box &quot;/html/body/div[1]/form/header/div/div[2]/div/div[1]/input&quot;(OpenBarNews.feature:19)
-</error>
-  </testcase>
-  <testcase classname="Scenario: I Searched something" name="When I click the search button  &quot;search-btn&quot;" time="0.003">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: I Searched something" name="And I wait for search results 10 seconds" time="0.003">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: I Searched something" name="Then I should get the search results &quot;/html/body/div[1]/form/div[3]/div/div[2]/div/div[2]/ul/li[2]/div[1]/h4/a&quot;" time="0.004">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: I Searched something" name="And I close the browser" time="0.004">
-    <skipped/>
-  </testcase>
+  <testcase classname="Scenario: I clicked on View All TODO Link" name="And I close the browser" time="0"/>
+  <testcase classname="Scenario: I clicked on View All TODO Link" name="Scenario: I clicked on View All TODO Link" time="0"/>
 </testsuite>
