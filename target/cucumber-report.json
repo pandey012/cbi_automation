@@ -1,0 +1,248 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I login with valid credentials",
+        "description": "",
+        "id": "openbar-login;i-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6471401452,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Open the browser",
+            "match": {
+              "location": "OpenBarTest.java:18"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3906806493,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to \"https://cbrands--edgeforce--c.cs17.visual.force.com/apex/CBI_Home?sfdc.tabName\u003d01rG0000000fTpR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://cbrands--edgeforce--c.cs17.visual.force.com/apex/CBI_Home?sfdc.tabName\u003d01rG0000000fTpR",
+                  "offset": 15
+                }
+              ],
+              "location": "OpenBarTest.java:22"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70127300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I wait for 10 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 11
+                }
+              ],
+              "location": "OpenBarTest.java:40"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 862977842,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"himanshu.pandey@cbrands.com.ta\" into the field with id \"username\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "himanshu.pandey@cbrands.com.ta",
+                  "offset": 9
+                },
+                {
+                  "val": "username",
+                  "offset": 65
+                }
+              ],
+              "location": "OpenBarTest.java:26"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1140023845,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"TestAdmin123\" as Password into the field with id \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestAdmin123",
+                  "offset": 9
+                },
+                {
+                  "val": "password",
+                  "offset": 59
+                }
+              ],
+              "location": "OpenBarTest.java:31"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 614671392,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the element with id \"Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 32
+                }
+              ],
+              "location": "OpenBarTest.java:36"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66159470,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I wait for 20 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 11
+                }
+              ],
+              "location": "OpenBarTest.java:40"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5154367091,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be loggedIn",
+            "match": {
+              "location": "OpenBarTest.java:44"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "OpenBar Login",
+    "description": "",
+    "id": "openbar-login",
+    "keyword": "Feature",
+    "uri": "OpenBarLogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I clicked the View All News Link",
+        "description": "",
+        "id": "openbar-news;i-clicked-the-view-all-news-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 550297744,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I clicked on View All News Link \"/html/body/div[1]/form/div[4]/div/div/section[1]/h3/a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/html/body/div[1]/form/div[4]/div/div/section[1]/h3/a",
+                  "offset": 33
+                }
+              ],
+              "location": "OpenBarNews.java:21"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36614735,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I wait for browser for 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 23
+                }
+              ],
+              "location": "OpenBarNews.java:27"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2478502864,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be landed on News Page \"/html/body/div[1]/form/span/div/div/div[1]/div/h2/span\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/html/body/div[1]/form/span/div/div/div[1]/div/h2/span",
+                  "offset": 33
+                }
+              ],
+              "location": "OpenBarNews.java:32"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 119076899,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I close the browser",
+            "match": {
+              "location": "OpenBarNews.java:36"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "OpenBar News",
+    "description": "",
+    "id": "openbar-news",
+    "keyword": "Feature",
+    "uri": "OpenBarNews.feature"
+  }
+]
