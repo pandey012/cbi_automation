@@ -38,6 +38,7 @@ public class OpenBarNews implements En {
 		
 		Given("^I am on OpenBar HomePage \"([^\"]*)\"$", (String arg1) -> {
 			driver = WebDriverConfig.getIE();
+			driver.get(arg1);
 		});
 		
 		Given("^I wait for another (\\d+) seconds$", (Integer arg1) -> {
