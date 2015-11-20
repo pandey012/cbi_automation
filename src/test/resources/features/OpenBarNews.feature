@@ -16,7 +16,7 @@ Scenario: I clicked on View All TODO Link
 		
 
 Scenario: I Searched something
-		Given I typed "Terms Of Use" into search box "/html/body/div[1]/form/header/div/div[2]/div/div[1]/input"
+		When I typed "Terms Of Use" into search box "/html/body/div[1]/form/header/div/div[2]/div/div[1]/input"
 		When I click the search button  "search-btn"
 		And I wait for search results 10 seconds
 		Then I should get the search results "/html/body/div[1]/form/div[3]/div/div[2]/div/div[2]/ul/li[2]/div[1]/h4/a"

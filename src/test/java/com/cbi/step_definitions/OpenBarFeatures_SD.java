@@ -55,7 +55,7 @@ public class OpenBarFeatures_SD implements En {
 		});
 
 		
-		Given("^I typed \"([^\"]*)\" into search box \"([^\"]*)\"$", (String arg1, String arg2) -> {
+		When("^I typed \"([^\"]*)\" into search box \"([^\"]*)\"$", (String arg1, String arg2) -> {
 			driver = WebDriverConfig.getIE();
 			driver.findElement(By.xpath(arg2)).sendKeys(arg1);
 		});

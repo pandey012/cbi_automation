@@ -1,4 +1,4 @@
 /Users/Himanshu/projects/cucumber/cbi_automation/src/test/java/com/cbi/helper/WebDriverConfig.java
+/Users/Himanshu/projects/cucumber/cbi_automation/src/test/java/com/cbi/step_definitions/OpenBarLogin_SD.java
 /Users/Himanshu/projects/cucumber/cbi_automation/src/test/java/com/cbi/step_definitions/RunTest.java
-/Users/Himanshu/projects/cucumber/cbi_automation/src/test/java/com/cbi/step_definitions/OpenBarTest.java
-/Users/Himanshu/projects/cucumber/cbi_automation/src/test/java/com/cbi/step_definitions/OpenBarNews.java
+/Users/Himanshu/projects/cucumber/cbi_automation/src/test/java/com/cbi/step_definitions/OpenBarFeatures_SD.java
