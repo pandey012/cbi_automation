@@ -3,6 +3,17 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 8098786934,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OpenBarLogin_SD.before()"
+            }
+          }
+        ],
         "line": 3,
         "name": "I login with valid credentials",
         "description": "",
@@ -12,22 +23,10 @@
         "steps": [
           {
             "result": {
-              "duration": 5614515610,
+              "duration": 3780895133,
               "status": "passed"
             },
             "line": 4,
-            "name": "I Open the browser",
-            "match": {
-              "location": "OpenBarLogin_SD.java:18"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3405977633,
-              "status": "passed"
-            },
-            "line": 5,
             "name": "I navigate to \"https://cbrands--edgeforce--c.cs17.visual.force.com/apex/CBI_Home?sfdc.tabName\u003d01rG0000000fTpR\"",
             "match": {
               "arguments": [
@@ -36,16 +35,16 @@
                   "offset": 15
                 }
               ],
-              "location": "OpenBarLogin_SD.java:23"
+              "location": "OpenBarLogin_SD.java:24"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 74161412,
+              "duration": 74483144,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "I wait for 10 seconds",
             "match": {
               "arguments": [
@@ -54,16 +53,16 @@
                   "offset": 11
                 }
               ],
-              "location": "OpenBarLogin_SD.java:41"
+              "location": "OpenBarLogin_SD.java:42"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 786198183,
+              "duration": 2532903124,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "I enter \"himanshu.pandey@cbrands.com.ta\" into the field with id \"username\"",
             "match": {
               "arguments": [
@@ -76,16 +75,16 @@
                   "offset": 65
                 }
               ],
-              "location": "OpenBarLogin_SD.java:27"
+              "location": "OpenBarLogin_SD.java:28"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 731078451,
+              "duration": 730851762,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "I enter \"TestAdmin123\" as Password into the field with id \"password\"",
             "match": {
               "arguments": [
@@ -98,16 +97,16 @@
                   "offset": 59
                 }
               ],
-              "location": "OpenBarLogin_SD.java:32"
+              "location": "OpenBarLogin_SD.java:33"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 732800545,
+              "duration": 730486895,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "I click on the element with id \"Login\"",
             "match": {
               "arguments": [
@@ -116,16 +115,16 @@
                   "offset": 32
                 }
               ],
-              "location": "OpenBarLogin_SD.java:37"
+              "location": "OpenBarLogin_SD.java:38"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 64375383,
+              "duration": 45785832,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "I wait for 15 seconds",
             "match": {
               "arguments": [
@@ -134,19 +133,19 @@
                   "offset": 11
                 }
               ],
-              "location": "OpenBarLogin_SD.java:41"
+              "location": "OpenBarLogin_SD.java:42"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 4446454180,
+              "duration": 4520018759,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "I should be loggedIn",
             "match": {
-              "location": "OpenBarLogin_SD.java:45"
+              "location": "OpenBarLogin_SD.java:46"
             },
             "keyword": "Then "
           }
@@ -163,6 +162,17 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 57897,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OpenBarLogin_SD.before()"
+            }
+          }
+        ],
         "line": 3,
         "name": "I clicked the View All News Link",
         "description": "",
@@ -172,7 +182,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1470446748,
+              "duration": 546830388,
               "status": "passed"
             },
             "line": 4,
@@ -190,7 +200,7 @@
           },
           {
             "result": {
-              "duration": 51392910,
+              "duration": 39301095,
               "status": "passed"
             },
             "line": 5,
@@ -208,7 +218,7 @@
           },
           {
             "result": {
-              "duration": 186299305,
+              "duration": 1315500225,
               "status": "passed"
             },
             "line": 6,
@@ -227,6 +237,17 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 55349,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OpenBarLogin_SD.before()"
+            }
+          }
+        ],
         "line": 9,
         "name": "I clicked on View All TODO Link",
         "description": "",
@@ -236,7 +257,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1042913861,
+              "duration": 1146311660,
               "status": "passed"
             },
             "line": 10,
@@ -254,7 +275,7 @@
           },
           {
             "result": {
-              "duration": 53958481,
+              "duration": 49457863,
               "status": "passed"
             },
             "line": 11,
@@ -268,11 +289,11 @@
               ],
               "location": "OpenBarFeatures_SD.java:44"
             },
-            "keyword": "Given "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 502954918,
+              "duration": 574858619,
               "status": "passed"
             },
             "line": 12,
@@ -290,7 +311,7 @@
           },
           {
             "result": {
-              "duration": 53162377,
+              "duration": 29970572,
               "status": "passed"
             },
             "line": 13,
@@ -308,7 +329,7 @@
           },
           {
             "result": {
-              "duration": 903843320,
+              "duration": 1133524547,
               "status": "passed"
             },
             "line": 14,
@@ -326,7 +347,7 @@
           },
           {
             "result": {
-              "duration": 116483487,
+              "duration": 115415846,
               "status": "passed"
             },
             "line": 15,

@@ -11,14 +11,15 @@ public class OpenBarLogin_SD implements En{
 
 	WebDriver driver = null;
 	
+	@cucumber.api.java.Before
+	public void before()
+	{
+		 driver = WebDriverConfig.getIE();
+	}
 	
 	public  OpenBarLogin_SD()
 	{
 
-		Given("^I Open the browser$", () -> {
-			 driver = WebDriverConfig.getIE();
-			//driver = WebDriverConfig.getLocalFirefox();
-		});
 		
 		Given("^I navigate to \"([^\"]*)\"$", (String arg1) -> {
 			driver.get(arg1);

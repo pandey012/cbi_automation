@@ -1,7 +1,6 @@
 Feature: OpenBar Login
 
 Scenario: I login with valid credentials
-		Given I Open the browser
 		Given I navigate to "https://cbrands--edgeforce--c.cs17.visual.force.com/apex/CBI_Home?sfdc.tabName=01rG0000000fTpR"
 		And I wait for 10 seconds
 		And I enter "himanshu.pandey@cbrands.com.ta" into the field with id "username"
