@@ -3,7 +3,7 @@ Feature: OpenBar News and ToDo
 Scenario: I clicked the View All News Link
 		Given I clicked on View All News Link "/html/body/div[1]/form/div[4]/div/div/section[1]/h3/a"
 		When I wait for browser for 10 seconds
-		Then I should be landed on News Page "/html/body/div[1]/form/span/div/div/div[1]/div/h2/span"
+		Then I should be landed on News Page "/html/body/div[1]/form/span/div/div/div[1]/div/h2"
 		
 
 Scenario: I clicked on View All TODO Link
