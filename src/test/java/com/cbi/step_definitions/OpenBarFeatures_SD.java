@@ -30,8 +30,9 @@ public class OpenBarFeatures_SD implements En {
 		});
 
 		
-		Then("^I should be landed on News Page \"([^\"]*)\"$", (String arg1) -> {			
-			assertEquals(driver.findElement(By.xpath(arg1)).getText(),"NEWS" );
+		Then("^I should be landed on News Page \"([^\"]*)\"$", (String arg1) -> {	
+			String newsLabel = "/html/body/div[1]/form/span/div/div/div[1]/div/h2/span";
+			assertEquals(driver.findElement(By.xpath(newsLabel)).getText(),"NEWS" );
 		});
 		
 		
@@ -53,9 +54,14 @@ public class OpenBarFeatures_SD implements En {
 			assertEquals(driver.findElement(By.xpath(arg1)).getText(),"TO DOs" );
 			// assertEquals(driver.getTitle(),"TO DO" );
 		});
+		
+		Then("^I should be landed on TODO Page \"([^\"]*)\" 	with heading \"([^\"]*)\"$", (String arg1, String arg2) -> {
+			assertEquals(driver.findElement(By.xpath(arg1)).getText(), arg2 );
+		});
 
 		Then("^I close the browser$", () -> {
 			driver.quit();
+			
 		});
 
 

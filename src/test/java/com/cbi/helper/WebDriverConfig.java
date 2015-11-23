@@ -10,8 +10,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class WebDriverConfig {
 
 	private static WebDriver driver = null;
-	private static final String SAUCE_URL = "http://hpandey:f0d2ae28-9d83-4248-ba3b-1d54756cbc9e@ondemand.saucelabs.com:80/wd/hub";
-
+	//private static final String SAUCE_URL = "http://hpandey:f0d2ae28-9d83-4248-ba3b-1d54756cbc9e@ondemand.saucelabs.com:80/wd/hub";
+	private static final String SAUCE_URL = "http://hpandey01:af3938ea-00c3-4f9c-97b0-5bf733eccd7b@ondemand.saucelabs.com:80/wd/hub";
 	
 	public static WebDriver getFirefoxDriver() 
 	{

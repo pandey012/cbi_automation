@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 8098786934,
+              "duration": 6911475085,
               "status": "passed"
             },
             "match": {
@@ -23,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3780895133,
+              "duration": 3713976565,
               "status": "passed"
             },
             "line": 4,
@@ -35,13 +35,13 @@
                   "offset": 15
                 }
               ],
-              "location": "OpenBarLogin_SD.java:24"
+              "location": "OpenBarLogin_SD.java:25"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 74483144,
+              "duration": 54458805,
               "status": "passed"
             },
             "line": 5,
@@ -53,13 +53,13 @@
                   "offset": 11
                 }
               ],
-              "location": "OpenBarLogin_SD.java:42"
+              "location": "OpenBarLogin_SD.java:43"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2532903124,
+              "duration": 1719516861,
               "status": "passed"
             },
             "line": 6,
@@ -75,13 +75,13 @@
                   "offset": 65
                 }
               ],
-              "location": "OpenBarLogin_SD.java:28"
+              "location": "OpenBarLogin_SD.java:29"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 730851762,
+              "duration": 991779702,
               "status": "passed"
             },
             "line": 7,
@@ -97,13 +97,13 @@
                   "offset": 59
                 }
               ],
-              "location": "OpenBarLogin_SD.java:33"
+              "location": "OpenBarLogin_SD.java:34"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 730486895,
+              "duration": 2073960436,
               "status": "passed"
             },
             "line": 8,
@@ -115,13 +115,13 @@
                   "offset": 32
                 }
               ],
-              "location": "OpenBarLogin_SD.java:38"
+              "location": "OpenBarLogin_SD.java:39"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 45785832,
+              "duration": 53127073,
               "status": "passed"
             },
             "line": 9,
@@ -133,19 +133,19 @@
                   "offset": 11
                 }
               ],
-              "location": "OpenBarLogin_SD.java:42"
+              "location": "OpenBarLogin_SD.java:43"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 4520018759,
+              "duration": 2706492741,
               "status": "passed"
             },
             "line": 10,
             "name": "I should be loggedIn",
             "match": {
-              "location": "OpenBarLogin_SD.java:46"
+              "location": "OpenBarLogin_SD.java:47"
             },
             "keyword": "Then "
           }
@@ -165,7 +165,7 @@
         "before": [
           {
             "result": {
-              "duration": 57897,
+              "duration": 71706,
               "status": "passed"
             },
             "match": {
@@ -182,7 +182,7 @@
         "steps": [
           {
             "result": {
-              "duration": 546830388,
+              "duration": 533360697,
               "status": "passed"
             },
             "line": 4,
@@ -200,15 +200,15 @@
           },
           {
             "result": {
-              "duration": 39301095,
+              "duration": 38242477,
               "status": "passed"
             },
             "line": 5,
-            "name": "I wait for browser for 10 seconds",
+            "name": "I wait for browser for 20 seconds",
             "match": {
               "arguments": [
                 {
-                  "val": "10",
+                  "val": "20",
                   "offset": 23
                 }
               ],
@@ -218,7 +218,7 @@
           },
           {
             "result": {
-              "duration": 1315500225,
+              "duration": 1463059295,
               "status": "passed"
             },
             "line": 6,
@@ -240,7 +240,7 @@
         "before": [
           {
             "result": {
-              "duration": 55349,
+              "duration": 126755,
               "status": "passed"
             },
             "match": {
@@ -257,7 +257,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1146311660,
+              "duration": 1509560097,
               "status": "passed"
             },
             "line": 10,
@@ -269,13 +269,13 @@
                   "offset": 26
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:39"
+              "location": "OpenBarFeatures_SD.java:40"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 49457863,
+              "duration": 52331024,
               "status": "passed"
             },
             "line": 11,
@@ -287,13 +287,13 @@
                   "offset": 19
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:44"
+              "location": "OpenBarFeatures_SD.java:45"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 574858619,
+              "duration": 729741043,
               "status": "passed"
             },
             "line": 12,
@@ -305,13 +305,13 @@
                   "offset": 24
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:48"
+              "location": "OpenBarFeatures_SD.java:49"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 29970572,
+              "duration": 118717230,
               "status": "passed"
             },
             "line": 13,
@@ -323,37 +323,41 @@
                   "offset": 19
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:44"
+              "location": "OpenBarFeatures_SD.java:45"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1133524547,
+              "duration": 428669593,
               "status": "passed"
             },
             "line": 14,
-            "name": "I should be landed on TODO Page \"/html/body/div[1]/form/div[3]/div/div[2]/div/h2\"",
+            "name": "I should be landed on TODO Page \"/html/body/div[1]/form/div[3]/div/div[2]/div/h2\" \twith heading \"TO DOs\"",
             "match": {
               "arguments": [
                 {
                   "val": "/html/body/div[1]/form/div[3]/div/div[2]/div/h2",
                   "offset": 33
+                },
+                {
+                  "val": "TO DOs",
+                  "offset": 97
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:52"
+              "location": "OpenBarFeatures_SD.java:58"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 115415846,
+              "duration": 103757259,
               "status": "passed"
             },
             "line": 15,
             "name": "I close the browser",
             "match": {
-              "location": "OpenBarFeatures_SD.java:57"
+              "location": "OpenBarFeatures_SD.java:62"
             },
             "keyword": "And "
           }
