@@ -14,7 +14,7 @@ public class OpenBarLogin_SD implements En{
 	@cucumber.api.java.Before
 	public void before()
 	{
-		 driver = WebDriverConfig.getIE();
+		 driver = WebDriverConfig.getFirefoxDriver();
 		// driver = WebDriverConfig.getLocalFirefox();
 	}
 	

@@ -64,8 +64,8 @@
   </properties>
   <testcase classname="Scenario: I login with valid credentials" name="Given I navigate to &quot;https://cbrands--edgeforce--c.cs17.visual.force.com/apex/CBI_Home?sfdc.tabName=01rG0000000fTpR&quot;" time="0.003"/>
   <testcase classname="Scenario: I login with valid credentials" name="And I wait for 10 seconds" time="0"/>
-  <testcase classname="Scenario: I login with valid credentials" name="And I enter &quot;himanshu.pandey@cbrands.com.ta&quot; into the field with id &quot;username&quot;" time="0.001"/>
-  <testcase classname="Scenario: I login with valid credentials" name="And I enter &quot;TestAdmin123&quot; as Password into the field with id &quot;password&quot;" time="0"/>
+  <testcase classname="Scenario: I login with valid credentials" name="And I enter &quot;himanshu.pandey@cbrands.com.ta&quot; into the field with id &quot;username&quot;" time="0"/>
+  <testcase classname="Scenario: I login with valid credentials" name="And I enter &quot;TestAdmin123&quot; as Password into the field with id &quot;password&quot;" time="0.001"/>
   <testcase classname="Scenario: I login with valid credentials" name="When I click on the element with id &quot;Login&quot;" time="0"/>
   <testcase classname="Scenario: I login with valid credentials" name="And I wait for 15 seconds" time="0"/>
   <testcase classname="Scenario: I login with valid credentials" name="Then I should be loggedIn" time="0"/>
@@ -74,11 +74,11 @@
   <testcase classname="Scenario: I clicked the View All News Link" name="When I wait for browser for 20 seconds" time="0"/>
   <testcase classname="Scenario: I clicked the View All News Link" name="Then I should be landed on News Page &quot;/html/body/div[1]/form/span/div/div/div[1]/div/h2&quot;" time="0"/>
   <testcase classname="Scenario: I clicked the View All News Link" name="Scenario: I clicked the View All News Link" time="0"/>
-  <testcase classname="Scenario: I clicked on View All TODO Link" name="Given I am on OpenBar HomePage &quot;https://cbrands--edgeforce--c.cs17.visual.force.com/apex/CBI_Home?sfdc.tabName=01rG0000000fTpR&quot;" time="0"/>
+  <testcase classname="Scenario: I clicked on View All TODO Link" name="Given I am on OpenBar HomePage &quot;navbar-brand&quot;" time="0"/>
   <testcase classname="Scenario: I clicked on View All TODO Link" name="And I wait for another 20 seconds" time="0"/>
-  <testcase classname="Scenario: I clicked on View All TODO Link" name="When I clicked on TODO Link &quot;/html/body/div[1]/form/div[4]/div/div/section[2]/h3/a&quot;" time="0"/>
-  <testcase classname="Scenario: I clicked on View All TODO Link" name="And I wait for another 20 seconds" time="0"/>
-  <testcase classname="Scenario: I clicked on View All TODO Link" name="Then I should be landed on TODO Page &quot;/html/body/div[1]/form/div[3]/div/div[2]/div/h2&quot; 	with heading &quot;TO DOs&quot;" time="0"/>
+  <testcase classname="Scenario: I clicked on View All TODO Link" name="When I clicked on TODO Link" time="0"/>
+  <testcase classname="Scenario: I clicked on View All TODO Link" name="And I wait for 10 seconds for page to load" time="0"/>
+  <testcase classname="Scenario: I clicked on View All TODO Link" name="Then I should be landed on TODO Page &quot;/html/body/div[1]/form/div[3]/div/div[2]/div/h2&quot; with heading &quot;TO DOs&quot;" time="0"/>
   <testcase classname="Scenario: I clicked on View All TODO Link" name="And I close the browser" time="0"/>
   <testcase classname="Scenario: I clicked on View All TODO Link" name="Scenario: I clicked on View All TODO Link" time="0.001"/>
 </testsuite>
