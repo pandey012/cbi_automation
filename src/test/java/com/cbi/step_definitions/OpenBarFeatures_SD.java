@@ -38,7 +38,7 @@ public class OpenBarFeatures_SD implements En {
 		
 		
 		Given("^I am on OpenBar HomePage \"([^\"]*)\"$", (String arg1) -> {
-			driver = WebDriverConfig.getFirefoxDriver();
+			driver = WebDriverConfig.getIE();
 			driver.findElement(By.className(arg1)).click();
 			//driver.get(arg1);
 		});
