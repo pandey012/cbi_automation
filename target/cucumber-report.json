@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12111746176,
+              "duration": 7263299570,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 3951134524,
+              "duration": 3464416059,
               "status": "passed"
             },
             "line": 5,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 55141154,
+              "duration": 52742230,
               "status": "passed"
             },
             "line": 6,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 2032047841,
+              "duration": 945619781,
               "status": "passed"
             },
             "line": 7,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 2401321357,
+              "duration": 833307296,
               "status": "passed"
             },
             "line": 8,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 834650604,
+              "duration": 2296719147,
               "status": "passed"
             },
             "line": 9,
@@ -122,15 +122,15 @@
           },
           {
             "result": {
-              "duration": 61197387,
+              "duration": 62953835,
               "status": "passed"
             },
             "line": 10,
-            "name": "I wait for 20 seconds",
+            "name": "I wait for 15 seconds",
             "match": {
               "arguments": [
                 {
-                  "val": "20",
+                  "val": "15",
                   "offset": 11
                 }
               ],
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 5266821087,
+              "duration": 2873852454,
               "status": "passed"
             },
             "line": 11,
@@ -172,7 +172,7 @@
         "steps": [
           {
             "result": {
-              "duration": 724557493,
+              "duration": 1965325653,
               "status": "passed"
             },
             "line": 4,
@@ -190,15 +190,15 @@
           },
           {
             "result": {
-              "duration": 58860570,
+              "duration": 64018527,
               "status": "passed"
             },
             "line": 5,
-            "name": "I wait for browser for 5 seconds",
+            "name": "I wait for browser for 10 seconds",
             "match": {
               "arguments": [
                 {
-                  "val": "5",
+                  "val": "10",
                   "offset": 23
                 }
               ],
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 1486073633,
+              "duration": 246488387,
               "status": "passed"
             },
             "line": 6,
@@ -236,7 +236,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1684855680,
+              "duration": 1667713823,
               "status": "passed"
             },
             "line": 10,
@@ -254,7 +254,7 @@
           },
           {
             "result": {
-              "duration": 58731074,
+              "duration": 57256340,
               "status": "passed"
             },
             "line": 11,
@@ -268,11 +268,11 @@
               ],
               "location": "OpenBarFeatures_SD.java:44"
             },
-            "keyword": "And "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 793519196,
+              "duration": 1521762409,
               "status": "passed"
             },
             "line": 12,
@@ -290,7 +290,7 @@
           },
           {
             "result": {
-              "duration": 71795484,
+              "duration": 52568250,
               "status": "passed"
             },
             "line": 13,
@@ -308,7 +308,7 @@
           },
           {
             "result": {
-              "duration": 1475212429,
+              "duration": 248401828,
               "status": "passed"
             },
             "line": 14,
@@ -326,7 +326,7 @@
           },
           {
             "result": {
-              "duration": 132123227,
+              "duration": 151638124,
               "status": "passed"
             },
             "line": 15,
