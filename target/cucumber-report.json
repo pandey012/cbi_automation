@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 11320088405,
+              "duration": 10418169805,
               "status": "passed"
             },
             "match": {
@@ -23,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2566550976,
+              "duration": 5471907943,
               "status": "passed"
             },
             "line": 4,
@@ -41,7 +41,7 @@
           },
           {
             "result": {
-              "duration": 636121051,
+              "duration": 75435711,
               "status": "passed"
             },
             "line": 5,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 508272260,
+              "duration": 2828608071,
               "status": "passed"
             },
             "line": 6,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 521570072,
+              "duration": 1739506679,
               "status": "passed"
             },
             "line": 7,
@@ -103,7 +103,7 @@
           },
           {
             "result": {
-              "duration": 417022303,
+              "duration": 1124752959,
               "status": "passed"
             },
             "line": 8,
@@ -121,7 +121,7 @@
           },
           {
             "result": {
-              "duration": 1205460981,
+              "duration": 86653356,
               "status": "passed"
             },
             "line": 9,
@@ -139,7 +139,7 @@
           },
           {
             "result": {
-              "duration": 3144484357,
+              "duration": 4851477454,
               "status": "passed"
             },
             "line": 10,
@@ -162,10 +162,16 @@
     "line": 1,
     "elements": [
       {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#Scenario for News Link"
+          }
+        ],
         "before": [
           {
             "result": {
-              "duration": 58367,
+              "duration": 87960,
               "status": "passed"
             },
             "match": {
@@ -173,7 +179,7 @@
             }
           }
         ],
-        "line": 3,
+        "line": 5,
         "name": "I clicked the View All News Link",
         "description": "",
         "id": "openbar-news-and-todo;i-clicked-the-view-all-news-link",
@@ -182,28 +188,28 @@
         "steps": [
           {
             "result": {
-              "duration": 311088578,
+              "duration": 1404667294,
               "status": "passed"
             },
-            "line": 4,
-            "name": "I clicked on View All News Link \"/html/body/div[1]/form/div[4]/div/div/section[1]/h3/a\"",
+            "line": 6,
+            "name": "I clicked on View All News Link \"/apex/CBI_newsPage\"",
             "match": {
               "arguments": [
                 {
-                  "val": "/html/body/div[1]/form/div[4]/div/div/section[1]/h3/a",
+                  "val": "/apex/CBI_newsPage",
                   "offset": 33
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:21"
+              "location": "OpenBarFeatures_SD.java:22"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 892634369,
+              "duration": 147782954,
               "status": "passed"
             },
-            "line": 5,
+            "line": 7,
             "name": "I wait for browser for 20 seconds",
             "match": {
               "arguments": [
@@ -212,16 +218,16 @@
                   "offset": 23
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:28"
+              "location": "OpenBarFeatures_SD.java:29"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 122230024,
+              "duration": 1079319238,
               "status": "passed"
             },
-            "line": 6,
+            "line": 8,
             "name": "I should be landed on News Page \"/html/body/div[1]/form/span/div/div/div[1]/div/h2\"",
             "match": {
               "arguments": [
@@ -230,17 +236,23 @@
                   "offset": 33
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:33"
+              "location": "OpenBarFeatures_SD.java:34"
             },
             "keyword": "Then "
           }
         ]
       },
       {
+        "comments": [
+          {
+            "line": 11,
+            "value": "#Scenario for TODO Links"
+          }
+        ],
         "before": [
           {
             "result": {
-              "duration": 78031,
+              "duration": 90390,
               "status": "passed"
             },
             "match": {
@@ -248,7 +260,7 @@
             }
           }
         ],
-        "line": 9,
+        "line": 12,
         "name": "I clicked on View All TODO Link",
         "description": "",
         "id": "openbar-news-and-todo;i-clicked-on-view-all-todo-link",
@@ -257,10 +269,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1279354980,
+              "duration": 916010314,
               "status": "passed"
             },
-            "line": 10,
+            "line": 13,
             "name": "I am on OpenBar HomePage \"navbar-brand\"",
             "match": {
               "arguments": [
@@ -269,16 +281,16 @@
                   "offset": 26
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:40"
+              "location": "OpenBarFeatures_SD.java:41"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 44342055,
+              "duration": 104727304,
               "status": "passed"
             },
-            "line": 11,
+            "line": 14,
             "name": "I wait for another 20 seconds",
             "match": {
               "arguments": [
@@ -287,28 +299,28 @@
                   "offset": 19
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:46"
+              "location": "OpenBarFeatures_SD.java:47"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1226849928,
+              "duration": 2045014184,
               "status": "passed"
             },
-            "line": 12,
+            "line": 15,
             "name": "I clicked on TODO Link",
             "match": {
-              "location": "OpenBarFeatures_SD.java:50"
+              "location": "OpenBarFeatures_SD.java:51"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 37250630,
+              "duration": 87741647,
               "status": "passed"
             },
-            "line": 13,
+            "line": 16,
             "name": "I wait for 10 seconds for page to load",
             "match": {
               "arguments": [
@@ -317,16 +329,16 @@
                   "offset": 11
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:54"
+              "location": "OpenBarFeatures_SD.java:55"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 110573123,
+              "duration": 1241559468,
               "status": "passed"
             },
-            "line": 14,
+            "line": 17,
             "name": "I should be landed on TODO Page \"/html/body/div[1]/form/div[3]/div/div[2]/div/h2\" with heading \"TO DOs\"",
             "match": {
               "arguments": [
@@ -339,19 +351,122 @@
                   "offset": 96
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:58"
+              "location": "OpenBarFeatures_SD.java:59"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 21,
+            "value": "#Scenario for Search"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 85497,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OpenBarLogin_SD.before()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "I Search for Terms of Use in OpenBar",
+        "description": "",
+        "id": "openbar-news-and-todo;i-search-for-terms-of-use-in-openbar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1017707289,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I Type \"Terms Of Use\" in OpenBar search \"srch-term\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Terms Of Use",
+                  "offset": 8
+                },
+                {
+                  "val": "srch-term",
+                  "offset": 41
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:65"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 921447021,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on Search button \"search-btn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search-btn",
+                  "offset": 26
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:70"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80495114,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I wait for search results for 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 30
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:74"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1135855865,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should get the \"TERMS OF USE\" in Search Reults",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TERMS OF USE",
+                  "offset": 18
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:78"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 90797310,
+              "duration": 188153684,
               "status": "passed"
             },
-            "line": 15,
+            "line": 27,
             "name": "I close the browser",
             "match": {
-              "location": "OpenBarFeatures_SD.java:63"
+              "location": "OpenBarFeatures_SD.java:85"
             },
             "keyword": "And "
           }

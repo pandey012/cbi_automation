@@ -18,11 +18,12 @@ public class OpenBarFeatures_SD implements En {
 	public OpenBarFeatures_SD()
 	{
 		
+		
 		Given("^I clicked on View All News Link \"([^\"]*)\"$", (String arg1) -> {
 			
 			driver = WebDriverConfig.getIE();
 			//driver = WebDriverConfig.getLocalFirefox();
-			driver.findElement(By.xpath(arg1)).click();
+			driver.findElement(By.cssSelector("a[href*='"+arg1+"']")).click();
 		});
 		
 		When("^I wait for browser for (\\d+) seconds$", (Integer arg1) -> {
@@ -59,6 +60,27 @@ public class OpenBarFeatures_SD implements En {
 			
 			assertEquals(driver.findElement(By.className("row page-header").className("col-sm-9")).getText(), arg2 );
 		});
+		
+		
+		Given("^I Type \"([^\"]*)\" in OpenBar search \"([^\"]*)\"$", (String searchTerm, String searchBoxId) -> {
+			driver = WebDriverConfig.getIE();
+			driver.findElement(By.id(searchBoxId)).sendKeys(searchTerm);
+		});
+
+		When("^I click on Search button \"([^\"]*)\"$", (String buttonClass) -> {
+			driver.findElement(By.className(buttonClass)).click();
+		});
+
+		When("^I wait for search results for (\\d+) seconds$", (Integer seconds) -> {
+			driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
+		});
+
+		Then("^I should get the \"([^\"]*)\" in Search Reults$", (String expectedValue) -> {
+			String termsOfUse = driver.findElement(By.cssSelector("a[href*='/apex/CBI_Blank_Template']")).getText();
+			assertEquals(termsOfUse,expectedValue );
+		});
+
+		
 
 		Then("^I close the browser$", () -> {
 			driver.quit();
