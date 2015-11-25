@@ -18,10 +18,47 @@ Scenario: I clicked on View All TODO Link
 		
 
 
-#Scenario for Search
-Scenario: I Search for Terms of Use in OpenBar
+#Scenario for Search - I
+Scenario: I Search for Blank Template : Terms of Use
 		Given I Type "Terms Of Use" in OpenBar search "srch-term"
 		When I click on Search button "search-btn"
 		And I wait for search results for 5 seconds
-		Then I should get the "TERMS OF USE" in Search Reults
-		And I close the browser	
+		Then I should get the "TERMS OF USE" in Search Reults "/apex/CBI_Blank_Template"
+
+#Scenario for Search - II
+Scenario: I search for Sub Category : Beer Finance
+		Given I Type "Beer Finance" in OpenBar search "srch-term"
+		When I click on Search button "search-btn"
+		And I wait for search results for 5 seconds
+		Then I should get the "Beer Finance" in Search Reults "/apex/CBI_SubCategory"
+
+#Scenario for Search - III
+Scenario: I search for  Content: Forms
+		Given I Type "Forms" in OpenBar search "srch-term"
+		When I click on Search button "search-btn"
+		And I wait for search results for 5 seconds
+		Then I should get the "Forms" in Search Reults "/apex/CBI_SubCategory"
+				
+
+#Scenario for Employee Search - I
+Scenario: I search for Employee in the OpenBar Employee Directory
+		Given I click on Employee Directory link "/apex/CBI_Employee_Directory"
+		And I waited for Employee Directory Page to load for 5 seconds
+		When I type "Mike" in FirstName TextBox "firstName"  	
+		And I type "Dabisch" in LastName TextBox "LastName"
+		And I click Search "SearchBtn"
+		And I waited for 10 seconds
+		Then I should see "Mike Dabisch" in Search Results "employee"
+		
+#Scenario for Employee Search - II
+Scenario: I search for Employee that doesnt exist 
+		Given I click on Employee Directory link "/apex/CBI_Employee_Directory"
+		And I waited for Employee Directory Page to load for 5 seconds
+		When I type "Test" in FirstName TextBox "firstName"  	
+		And I type "Test" in LastName TextBox "LastName"
+		And I click Search "SearchBtn"
+		And I waited for 10 seconds
+		Then I should see "No matches were found, please search again" in Search Results "noResult" 
+		Then I close the browser	
+		
+	

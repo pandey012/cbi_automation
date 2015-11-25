@@ -3,10 +3,16 @@
     "line": 1,
     "elements": [
       {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#Scenario to Test Login"
+          }
+        ],
         "before": [
           {
             "result": {
-              "duration": 10418169805,
+              "duration": 5792909525,
               "status": "passed"
             },
             "match": {
@@ -14,7 +20,7 @@
             }
           }
         ],
-        "line": 3,
+        "line": 4,
         "name": "I login with valid credentials",
         "description": "",
         "id": "openbar-login;i-login-with-valid-credentials",
@@ -23,10 +29,10 @@
         "steps": [
           {
             "result": {
-              "duration": 5471907943,
+              "duration": 3555531129,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I navigate to \"https://cbrands--edgeforce--c.cs17.visual.force.com/apex/CBI_Home?sfdc.tabName\u003d01rG0000000fTpR\"",
             "match": {
               "arguments": [
@@ -41,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 75435711,
+              "duration": 85160683,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I wait for 10 seconds",
             "match": {
               "arguments": [
@@ -59,10 +65,10 @@
           },
           {
             "result": {
-              "duration": 2828608071,
+              "duration": 700379781,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I enter \"himanshu.pandey@cbrands.com.ta\" into the field with id \"username\"",
             "match": {
               "arguments": [
@@ -81,10 +87,10 @@
           },
           {
             "result": {
-              "duration": 1739506679,
+              "duration": 659687968,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I enter \"TestAdmin123\" as Password into the field with id \"password\"",
             "match": {
               "arguments": [
@@ -103,10 +109,10 @@
           },
           {
             "result": {
-              "duration": 1124752959,
+              "duration": 646192667,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "I click on the element with id \"Login\"",
             "match": {
               "arguments": [
@@ -121,10 +127,10 @@
           },
           {
             "result": {
-              "duration": 86653356,
+              "duration": 62946810,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "I wait for 15 seconds",
             "match": {
               "arguments": [
@@ -139,10 +145,10 @@
           },
           {
             "result": {
-              "duration": 4851477454,
+              "duration": 4673726861,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "I should be loggedIn",
             "match": {
               "location": "OpenBarLogin_SD.java:47"
@@ -171,7 +177,7 @@
         "before": [
           {
             "result": {
-              "duration": 87960,
+              "duration": 59247,
               "status": "passed"
             },
             "match": {
@@ -188,7 +194,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1404667294,
+              "duration": 1612719694,
               "status": "passed"
             },
             "line": 6,
@@ -200,13 +206,13 @@
                   "offset": 33
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:22"
+              "location": "OpenBarFeatures_SD.java:24"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 147782954,
+              "duration": 208229498,
               "status": "passed"
             },
             "line": 7,
@@ -218,13 +224,13 @@
                   "offset": 23
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:29"
+              "location": "OpenBarFeatures_SD.java:31"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1079319238,
+              "duration": 268125784,
               "status": "passed"
             },
             "line": 8,
@@ -236,7 +242,7 @@
                   "offset": 33
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:34"
+              "location": "OpenBarFeatures_SD.java:36"
             },
             "keyword": "Then "
           }
@@ -252,7 +258,7 @@
         "before": [
           {
             "result": {
-              "duration": 90390,
+              "duration": 145724,
               "status": "passed"
             },
             "match": {
@@ -269,7 +275,7 @@
         "steps": [
           {
             "result": {
-              "duration": 916010314,
+              "duration": 843454117,
               "status": "passed"
             },
             "line": 13,
@@ -281,13 +287,13 @@
                   "offset": 26
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:41"
+              "location": "OpenBarFeatures_SD.java:43"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 104727304,
+              "duration": 74058825,
               "status": "passed"
             },
             "line": 14,
@@ -299,25 +305,25 @@
                   "offset": 19
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:47"
+              "location": "OpenBarFeatures_SD.java:50"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2045014184,
+              "duration": 1244945184,
               "status": "passed"
             },
             "line": 15,
             "name": "I clicked on TODO Link",
             "match": {
-              "location": "OpenBarFeatures_SD.java:51"
+              "location": "OpenBarFeatures_SD.java:54"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 87741647,
+              "duration": 56461402,
               "status": "passed"
             },
             "line": 16,
@@ -329,13 +335,13 @@
                   "offset": 11
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:55"
+              "location": "OpenBarFeatures_SD.java:58"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1241559468,
+              "duration": 598589570,
               "status": "passed"
             },
             "line": 17,
@@ -351,7 +357,7 @@
                   "offset": 96
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:59"
+              "location": "OpenBarFeatures_SD.java:62"
             },
             "keyword": "Then "
           }
@@ -361,13 +367,13 @@
         "comments": [
           {
             "line": 21,
-            "value": "#Scenario for Search"
+            "value": "#Scenario for Search - I"
           }
         ],
         "before": [
           {
             "result": {
-              "duration": 85497,
+              "duration": 53630,
               "status": "passed"
             },
             "match": {
@@ -376,15 +382,15 @@
           }
         ],
         "line": 22,
-        "name": "I Search for Terms of Use in OpenBar",
+        "name": "I Search for Blank Template : Terms of Use",
         "description": "",
-        "id": "openbar-news-and-todo;i-search-for-terms-of-use-in-openbar",
+        "id": "openbar-news-and-todo;i-search-for-blank-template-:-terms-of-use",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1017707289,
+              "duration": 1342353855,
               "status": "passed"
             },
             "line": 23,
@@ -400,13 +406,13 @@
                   "offset": 41
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:65"
+              "location": "OpenBarFeatures_SD.java:68"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 921447021,
+              "duration": 1585591862,
               "status": "passed"
             },
             "line": 24,
@@ -418,13 +424,13 @@
                   "offset": 26
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:70"
+              "location": "OpenBarFeatures_SD.java:75"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 80495114,
+              "duration": 112782850,
               "status": "passed"
             },
             "line": 25,
@@ -436,39 +442,587 @@
                   "offset": 30
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:74"
+              "location": "OpenBarFeatures_SD.java:79"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1135855865,
+              "duration": 264361780,
               "status": "passed"
             },
             "line": 26,
-            "name": "I should get the \"TERMS OF USE\" in Search Reults",
+            "name": "I should get the \"TERMS OF USE\" in Search Reults \"/apex/CBI_Blank_Template\"",
             "match": {
               "arguments": [
                 {
                   "val": "TERMS OF USE",
                   "offset": 18
+                },
+                {
+                  "val": "/apex/CBI_Blank_Template",
+                  "offset": 50
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:78"
+              "location": "OpenBarFeatures_SD.java:84"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 28,
+            "value": "#Scenario for Search - II"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 53500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OpenBarLogin_SD.before()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "I search for Sub Category : Beer Finance",
+        "description": "",
+        "id": "openbar-news-and-todo;i-search-for-sub-category-:-beer-finance",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1529381121,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I Type \"Beer Finance\" in OpenBar search \"srch-term\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beer Finance",
+                  "offset": 8
+                },
+                {
+                  "val": "srch-term",
+                  "offset": 41
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:68"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1460354882,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on Search button \"search-btn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search-btn",
+                  "offset": 26
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:75"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62643048,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I wait for search results for 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 30
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:79"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250103250,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should get the \"Beer Finance\" in Search Reults \"/apex/CBI_SubCategory\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beer Finance",
+                  "offset": 18
+                },
+                {
+                  "val": "/apex/CBI_SubCategory",
+                  "offset": 50
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:84"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 35,
+            "value": "#Scenario for Search - III"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 56334,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OpenBarLogin_SD.before()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "I search for  Content: Forms",
+        "description": "",
+        "id": "openbar-news-and-todo;i-search-for--content:-forms",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1011901231,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I Type \"Forms\" in OpenBar search \"srch-term\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Forms",
+                  "offset": 8
+                },
+                {
+                  "val": "srch-term",
+                  "offset": 34
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:68"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1539410375,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on Search button \"search-btn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search-btn",
+                  "offset": 26
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:75"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59596100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I wait for search results for 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 30
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:79"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246589730,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I should get the \"Forms\" in Search Reults \"/apex/CBI_SubCategory\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Forms",
+                  "offset": 18
+                },
+                {
+                  "val": "/apex/CBI_SubCategory",
+                  "offset": 43
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:84"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 43,
+            "value": "#Scenario for Employee Search - I"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 58060,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OpenBarLogin_SD.before()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "I search for Employee in the OpenBar Employee Directory",
+        "description": "",
+        "id": "openbar-news-and-todo;i-search-for-employee-in-the-openbar-employee-directory",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 702702651,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on Employee Directory link \"/apex/CBI_Employee_Directory\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/apex/CBI_Employee_Directory",
+                  "offset": 36
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:94"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117617925,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I waited for Employee Directory Page to load for 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 49
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:99"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2861123299,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I type \"Mike\" in FirstName TextBox \"firstName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mike",
+                  "offset": 8
+                },
+                {
+                  "val": "firstName",
+                  "offset": 36
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:103"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 714439860,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I type \"Dabisch\" in LastName TextBox \"LastName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dabisch",
+                  "offset": 8
+                },
+                {
+                  "val": "LastName",
+                  "offset": 38
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:107"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2965676341,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click Search \"SearchBtn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SearchBtn",
+                  "offset": 16
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:111"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75485882,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I waited for 10 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 13
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:115"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275293980,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I should see \"Mike Dabisch\" in Search Results \"employee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mike Dabisch",
+                  "offset": 14
+                },
+                {
+                  "val": "employee",
+                  "offset": 47
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:119"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 53,
+            "value": "#Scenario for Employee Search - II"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 58275,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OpenBarLogin_SD.before()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "I search for Employee that doesnt exist",
+        "description": "",
+        "id": "openbar-news-and-todo;i-search-for-employee-that-doesnt-exist",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1184489436,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I click on Employee Directory link \"/apex/CBI_Employee_Directory\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/apex/CBI_Employee_Directory",
+                  "offset": 36
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:94"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 162244065,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I waited for Employee Directory Page to load for 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 49
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:99"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1841765039,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I type \"Test\" in FirstName TextBox \"firstName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 8
+                },
+                {
+                  "val": "firstName",
+                  "offset": 36
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:103"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 757118902,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I type \"Test\" in LastName TextBox \"LastName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 8
+                },
+                {
+                  "val": "LastName",
+                  "offset": 35
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:107"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2863345949,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I click Search \"SearchBtn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SearchBtn",
+                  "offset": 16
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:111"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64664483,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I waited for 10 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 13
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:115"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241515117,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I should see \"No matches were found, please search again\" in Search Results \"noResult\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No matches were found, please search again",
+                  "offset": 14
+                },
+                {
+                  "val": "noResult",
+                  "offset": 77
+                }
+              ],
+              "location": "OpenBarFeatures_SD.java:119"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 188153684,
+              "duration": 117322465,
               "status": "passed"
             },
-            "line": 27,
+            "line": 62,
             "name": "I close the browser",
             "match": {
-              "location": "OpenBarFeatures_SD.java:85"
+              "location": "OpenBarFeatures_SD.java:134"
             },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ]
       }

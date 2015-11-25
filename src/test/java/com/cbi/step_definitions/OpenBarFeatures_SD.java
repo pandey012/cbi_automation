@@ -2,10 +2,12 @@ package com.cbi.step_definitions;
 
 import static org.junit.Assert.assertEquals;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import com.cbi.helper.WebDriverConfig;
 import cucumber.api.java8.En;
@@ -40,6 +42,7 @@ public class OpenBarFeatures_SD implements En {
 		
 		Given("^I am on OpenBar HomePage \"([^\"]*)\"$", (String arg1) -> {
 			driver = WebDriverConfig.getIE();
+			//driver = WebDriverConfig.getLocalFirefox();
 			driver.findElement(By.className(arg1)).click();
 			//driver.get(arg1);
 		});
@@ -64,6 +67,8 @@ public class OpenBarFeatures_SD implements En {
 		
 		Given("^I Type \"([^\"]*)\" in OpenBar search \"([^\"]*)\"$", (String searchTerm, String searchBoxId) -> {
 			driver = WebDriverConfig.getIE();
+			//driver = WebDriverConfig.getLocalFirefox();
+			driver.findElement(By.id(searchBoxId)).clear();
 			driver.findElement(By.id(searchBoxId)).sendKeys(searchTerm);
 		});
 
@@ -75,13 +80,57 @@ public class OpenBarFeatures_SD implements En {
 			driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
 		});
 
-		Then("^I should get the \"([^\"]*)\" in Search Reults$", (String expectedValue) -> {
-			String termsOfUse = driver.findElement(By.cssSelector("a[href*='/apex/CBI_Blank_Template']")).getText();
-			assertEquals(termsOfUse,expectedValue );
+
+		Then("^I should get the \"([^\"]*)\" in Search Reults \"([^\"]*)\"$", (String expectedValue, String cssSelector) -> {
+			String actualResult = driver.findElements(By.className("searchResultItem")).get(0).getText();
+			
+			assertEquals(actualResult,expectedValue );
 		});
 
 		
+		/**
+		 * Employee Directory Search Scenario
+		 */
+		Given("^I click on Employee Directory link \"([^\"]*)\"$", (String empDirLink) -> {
+			driver = WebDriverConfig.getIE();
+			driver.findElement(By.cssSelector("a[href*='"+empDirLink+"']")).click();
+		});
 
+		Given("^I waited for Employee Directory Page to load for (\\d+) seconds$", (Integer seconds) -> {
+			driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
+		});
+
+		When("^I type \"([^\"]*)\" in FirstName TextBox \"([^\"]*)\"$", (String fName, String fNameBox) -> {
+		    driver.findElement(By.className(fNameBox)).sendKeys(fName);
+		});
+
+		When("^I type \"([^\"]*)\" in LastName TextBox \"([^\"]*)\"$", (String lName, String lNameBox) -> {
+			  driver.findElement(By.className(lNameBox)).sendKeys(lName);
+		});
+
+		When("^I click Search \"([^\"]*)\"$", (String empButton) -> {
+			driver.findElement(By.id(empButton)).click();
+		});
+
+		When("^I waited for (\\d+) seconds$", (Integer seconds) -> {
+			driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
+		});
+
+		Then("^I should see \"([^\"]*)\" in Search Results \"([^\"]*)\"$", (String expectedName, String className) -> {
+			String empName = "";
+			String link =  "/apex/cbi_employeeprofile";
+			if(className.equals("employee"))
+			{
+				empName = driver.findElements(By.className(className).cssSelector("a[href*='"+link+"']")).get(0).getText();
+			}else
+			{
+				empName = driver.findElements(By.className(className)).get(0).getText();
+			}
+
+			assertEquals(empName,expectedName );
+		});
+
+	
 		Then("^I close the browser$", () -> {
 			driver.quit();
 			
