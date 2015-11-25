@@ -22,21 +22,21 @@ Scenario: I clicked on View All TODO Link
 Scenario: I Search for Blank Template : Terms of Use
 		Given I Type "Terms Of Use" in OpenBar search "srch-term"
 		When I click on Search button "search-btn"
-		And I wait for search results for 5 seconds
+		And I wait for search results for 10 seconds
 		Then I should get the "TERMS OF USE" in Search Reults "/apex/CBI_Blank_Template"
 
 #Scenario for Search - II
 Scenario: I search for Sub Category : Beer Finance
 		Given I Type "Beer Finance" in OpenBar search "srch-term"
 		When I click on Search button "search-btn"
-		And I wait for search results for 5 seconds
+		And I wait for search results for 10 seconds
 		Then I should get the "Beer Finance" in Search Reults "/apex/CBI_SubCategory"
 
 #Scenario for Search - III
 Scenario: I search for  Content: Forms
 		Given I Type "Forms" in OpenBar search "srch-term"
 		When I click on Search button "search-btn"
-		And I wait for search results for 5 seconds
+		And I wait for search results for 10 seconds
 		Then I should get the "Forms" in Search Reults "/apex/CBI_SubCategory"
 				
 
