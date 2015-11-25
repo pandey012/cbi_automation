@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="50" failures="0" name="com.cbi.step_definitions.RunTest" time="0.009" errors="0" skipped="0">
+<testsuite tests="50" failures="0" name="com.cbi.step_definitions.RunTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib"/>
@@ -69,30 +69,30 @@
   <testcase classname="Scenario: I login with valid credentials" name="When I click on the element with id &quot;Login&quot;" time="0"/>
   <testcase classname="Scenario: I login with valid credentials" name="And I wait for 15 seconds" time="0"/>
   <testcase classname="Scenario: I login with valid credentials" name="Then I should be loggedIn" time="0"/>
-  <testcase classname="Scenario: I login with valid credentials" name="Scenario: I login with valid credentials" time="0.001"/>
+  <testcase classname="Scenario: I login with valid credentials" name="Scenario: I login with valid credentials" time="0"/>
   <testcase classname="Scenario: I clicked the View All News Link" name="Given I clicked on View All News Link &quot;/apex/CBI_newsPage&quot;" time="0"/>
   <testcase classname="Scenario: I clicked the View All News Link" name="When I wait for browser for 20 seconds" time="0"/>
   <testcase classname="Scenario: I clicked the View All News Link" name="Then I should be landed on News Page &quot;/html/body/div[1]/form/span/div/div/div[1]/div/h2&quot;" time="0"/>
   <testcase classname="Scenario: I clicked the View All News Link" name="Scenario: I clicked the View All News Link" time="0"/>
   <testcase classname="Scenario: I clicked on View All TODO Link" name="Given I am on OpenBar HomePage &quot;navbar-brand&quot;" time="0"/>
   <testcase classname="Scenario: I clicked on View All TODO Link" name="And I wait for another 20 seconds" time="0"/>
-  <testcase classname="Scenario: I clicked on View All TODO Link" name="When I clicked on TODO Link" time="0.001"/>
+  <testcase classname="Scenario: I clicked on View All TODO Link" name="When I clicked on TODO Link" time="0"/>
   <testcase classname="Scenario: I clicked on View All TODO Link" name="And I wait for 10 seconds for page to load" time="0"/>
   <testcase classname="Scenario: I clicked on View All TODO Link" name="Then I should be landed on TODO Page &quot;/html/body/div[1]/form/div[3]/div/div[2]/div/h2&quot; with heading &quot;TO DOs&quot;" time="0"/>
-  <testcase classname="Scenario: I clicked on View All TODO Link" name="Scenario: I clicked on View All TODO Link" time="0.001"/>
+  <testcase classname="Scenario: I clicked on View All TODO Link" name="Scenario: I clicked on View All TODO Link" time="0"/>
   <testcase classname="Scenario: I Search for Blank Template : Terms of Use" name="Given I Type &quot;Terms Of Use&quot; in OpenBar search &quot;srch-term&quot;" time="0"/>
   <testcase classname="Scenario: I Search for Blank Template : Terms of Use" name="When I click on Search button &quot;search-btn&quot;" time="0"/>
   <testcase classname="Scenario: I Search for Blank Template : Terms of Use" name="And I wait for search results for 15 seconds" time="0"/>
   <testcase classname="Scenario: I Search for Blank Template : Terms of Use" name="Then I should get the &quot;TERMS OF USE&quot; in Search Reults &quot;/apex/CBI_Blank_Template&quot;" time="0"/>
-  <testcase classname="Scenario: I Search for Blank Template : Terms of Use" name="Scenario: I Search for Blank Template : Terms of Use" time="0.001"/>
+  <testcase classname="Scenario: I Search for Blank Template : Terms of Use" name="Scenario: I Search for Blank Template : Terms of Use" time="0"/>
   <testcase classname="Scenario: I search for Sub Category : Beer Finance" name="Given I Type &quot;Beer Finance&quot; in OpenBar search &quot;srch-term&quot;" time="0"/>
-  <testcase classname="Scenario: I search for Sub Category : Beer Finance" name="When I click on Search button &quot;search-btn&quot;" time="0.001"/>
+  <testcase classname="Scenario: I search for Sub Category : Beer Finance" name="When I click on Search button &quot;search-btn&quot;" time="0"/>
   <testcase classname="Scenario: I search for Sub Category : Beer Finance" name="And I wait for search results for 15 seconds" time="0"/>
   <testcase classname="Scenario: I search for Sub Category : Beer Finance" name="Then I should get the &quot;Beer Finance&quot; in Search Reults &quot;/apex/CBI_SubCategory&quot;" time="0"/>
   <testcase classname="Scenario: I search for Sub Category : Beer Finance" name="Scenario: I search for Sub Category : Beer Finance" time="0"/>
   <testcase classname="Scenario: I search for  Content: Forms" name="Given I Type &quot;Forms&quot; in OpenBar search &quot;srch-term&quot;" time="0"/>
   <testcase classname="Scenario: I search for  Content: Forms" name="When I click on Search button &quot;search-btn&quot;" time="0"/>
-  <testcase classname="Scenario: I search for  Content: Forms" name="And I wait for search results for 15 seconds" time="0.001"/>
+  <testcase classname="Scenario: I search for  Content: Forms" name="And I wait for search results for 15 seconds" time="0"/>
   <testcase classname="Scenario: I search for  Content: Forms" name="Then I should get the &quot;Forms&quot; in Search Reults &quot;/apex/CBI_SubCategory&quot;" time="0"/>
   <testcase classname="Scenario: I search for  Content: Forms" name="Scenario: I search for  Content: Forms" time="0"/>
   <testcase classname="Scenario: I search for Employee in the OpenBar Employee Directory" name="Given I click on Employee Directory link &quot;/apex/CBI_Employee_Directory&quot;" time="0"/>
