@@ -77,7 +77,13 @@ public class OpenBarFeatures_SD implements En {
 		});
 
 		When("^I wait for search results for (\\d+) seconds$", (Integer seconds) -> {
-			driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
+			try {
+				Thread.sleep(1000);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			//driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
 		});
 
 
