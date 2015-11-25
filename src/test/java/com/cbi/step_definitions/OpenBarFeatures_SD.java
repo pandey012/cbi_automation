@@ -101,10 +101,12 @@ public class OpenBarFeatures_SD implements En {
 		});
 
 		When("^I type \"([^\"]*)\" in FirstName TextBox \"([^\"]*)\"$", (String fName, String fNameBox) -> {
+			driver.findElement(By.className(fNameBox)).clear();
 		    driver.findElement(By.className(fNameBox)).sendKeys(fName);
 		});
 
 		When("^I type \"([^\"]*)\" in LastName TextBox \"([^\"]*)\"$", (String lName, String lNameBox) -> {
+			driver.findElement(By.className(lNameBox)).clear();
 			  driver.findElement(By.className(lNameBox)).sendKeys(lName);
 		});
 

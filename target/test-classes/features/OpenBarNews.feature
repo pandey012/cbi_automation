@@ -53,7 +53,7 @@ Scenario: I search for Employee in the OpenBar Employee Directory
 #Scenario for Employee Search - II
 Scenario: I search for Employee that doesnt exist 
 		Given I click on Employee Directory link "/apex/CBI_Employee_Directory"
-		And I waited for Employee Directory Page to load for 5 seconds
+		And I waited for Employee Directory Page to load for 10 seconds
 		When I type "Test" in FirstName TextBox "firstName"  	
 		And I type "Test" in LastName TextBox "LastName"
 		And I click Search "SearchBtn"
