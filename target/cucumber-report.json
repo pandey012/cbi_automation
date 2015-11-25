@@ -12,7 +12,7 @@
         "before": [
           {
             "result": {
-              "duration": 8313030328,
+              "duration": 6841277387,
               "status": "passed"
             },
             "match": {
@@ -29,7 +29,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4083892935,
+              "duration": 3497343127,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 68217255,
+              "duration": 80757282,
               "status": "passed"
             },
             "line": 6,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 1770650147,
+              "duration": 1007586020,
               "status": "passed"
             },
             "line": 7,
@@ -87,7 +87,7 @@
           },
           {
             "result": {
-              "duration": 813997142,
+              "duration": 791807062,
               "status": "passed"
             },
             "line": 8,
@@ -109,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 508991182,
+              "duration": 2491554439,
               "status": "passed"
             },
             "line": 9,
@@ -127,7 +127,7 @@
           },
           {
             "result": {
-              "duration": 70526087,
+              "duration": 109798758,
               "status": "passed"
             },
             "line": 10,
@@ -145,7 +145,7 @@
           },
           {
             "result": {
-              "duration": 4096466810,
+              "duration": 2295517229,
               "status": "passed"
             },
             "line": 11,
@@ -177,7 +177,7 @@
         "before": [
           {
             "result": {
-              "duration": 58205,
+              "duration": 57973,
               "status": "passed"
             },
             "match": {
@@ -194,7 +194,7 @@
         "steps": [
           {
             "result": {
-              "duration": 646430674,
+              "duration": 582699237,
               "status": "passed"
             },
             "line": 6,
@@ -212,7 +212,7 @@
           },
           {
             "result": {
-              "duration": 55595085,
+              "duration": 76426588,
               "status": "passed"
             },
             "line": 7,
@@ -230,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 1372107844,
+              "duration": 1689211169,
               "status": "passed"
             },
             "line": 8,
@@ -258,7 +258,7 @@
         "before": [
           {
             "result": {
-              "duration": 99323,
+              "duration": 68382,
               "status": "passed"
             },
             "match": {
@@ -275,7 +275,7 @@
         "steps": [
           {
             "result": {
-              "duration": 607204818,
+              "duration": 749860995,
               "status": "passed"
             },
             "line": 13,
@@ -293,7 +293,7 @@
           },
           {
             "result": {
-              "duration": 76030720,
+              "duration": 116880568,
               "status": "passed"
             },
             "line": 14,
@@ -311,7 +311,7 @@
           },
           {
             "result": {
-              "duration": 1885871529,
+              "duration": 1283617755,
               "status": "passed"
             },
             "line": 15,
@@ -323,7 +323,7 @@
           },
           {
             "result": {
-              "duration": 1477461709,
+              "duration": 78928355,
               "status": "passed"
             },
             "line": 16,
@@ -341,7 +341,7 @@
           },
           {
             "result": {
-              "duration": 217146194,
+              "duration": 1185561812,
               "status": "passed"
             },
             "line": 17,
@@ -373,7 +373,7 @@
         "before": [
           {
             "result": {
-              "duration": 55309,
+              "duration": 58975,
               "status": "passed"
             },
             "match": {
@@ -390,7 +390,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2343583341,
+              "duration": 1327004697,
               "status": "passed"
             },
             "line": 23,
@@ -412,7 +412,7 @@
           },
           {
             "result": {
-              "duration": 2083455035,
+              "duration": 661805670,
               "status": "passed"
             },
             "line": 24,
@@ -430,15 +430,15 @@
           },
           {
             "result": {
-              "duration": 102368766,
+              "duration": 58978053,
               "status": "passed"
             },
             "line": 25,
-            "name": "I wait for search results for 5 seconds",
+            "name": "I wait for search results for 15 seconds",
             "match": {
               "arguments": [
                 {
-                  "val": "5",
+                  "val": "15",
                   "offset": 30
                 }
               ],
@@ -448,7 +448,7 @@
           },
           {
             "result": {
-              "duration": 215281360,
+              "duration": 1332094235,
               "status": "passed"
             },
             "line": 26,
@@ -480,7 +480,7 @@
         "before": [
           {
             "result": {
-              "duration": 58125,
+              "duration": 54078,
               "status": "passed"
             },
             "match": {
@@ -497,7 +497,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3158293591,
+              "duration": 1319621286,
               "status": "passed"
             },
             "line": 30,
@@ -519,7 +519,7 @@
           },
           {
             "result": {
-              "duration": 1739619952,
+              "duration": 1438589950,
               "status": "passed"
             },
             "line": 31,
@@ -537,15 +537,15 @@
           },
           {
             "result": {
-              "duration": 51777215,
+              "duration": 52974970,
               "status": "passed"
             },
             "line": 32,
-            "name": "I wait for search results for 5 seconds",
+            "name": "I wait for search results for 15 seconds",
             "match": {
               "arguments": [
                 {
-                  "val": "5",
+                  "val": "15",
                   "offset": 30
                 }
               ],
@@ -555,7 +555,7 @@
           },
           {
             "result": {
-              "duration": 1069423592,
+              "duration": 194553740,
               "status": "passed"
             },
             "line": 33,
@@ -587,7 +587,7 @@
         "before": [
           {
             "result": {
-              "duration": 65903,
+              "duration": 56323,
               "status": "passed"
             },
             "match": {
@@ -604,7 +604,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1745161769,
+              "duration": 865886039,
               "status": "passed"
             },
             "line": 37,
@@ -626,7 +626,7 @@
           },
           {
             "result": {
-              "duration": 1594239122,
+              "duration": 1329911170,
               "status": "passed"
             },
             "line": 38,
@@ -644,15 +644,15 @@
           },
           {
             "result": {
-              "duration": 56255128,
+              "duration": 58427960,
               "status": "passed"
             },
             "line": 39,
-            "name": "I wait for search results for 5 seconds",
+            "name": "I wait for search results for 15 seconds",
             "match": {
               "arguments": [
                 {
-                  "val": "5",
+                  "val": "15",
                   "offset": 30
                 }
               ],
@@ -662,7 +662,7 @@
           },
           {
             "result": {
-              "duration": 205186275,
+              "duration": 217750410,
               "status": "passed"
             },
             "line": 40,
@@ -694,7 +694,7 @@
         "before": [
           {
             "result": {
-              "duration": 86150,
+              "duration": 58130,
               "status": "passed"
             },
             "match": {
@@ -711,7 +711,7 @@
         "steps": [
           {
             "result": {
-              "duration": 588153614,
+              "duration": 1049354431,
               "status": "passed"
             },
             "line": 45,
@@ -729,7 +729,7 @@
           },
           {
             "result": {
-              "duration": 69163180,
+              "duration": 56460815,
               "status": "passed"
             },
             "line": 46,
@@ -747,7 +747,7 @@
           },
           {
             "result": {
-              "duration": 2790269826,
+              "duration": 2859664229,
               "status": "passed"
             },
             "line": 47,
@@ -769,7 +769,7 @@
           },
           {
             "result": {
-              "duration": 613905095,
+              "duration": 877914687,
               "status": "passed"
             },
             "line": 48,
@@ -785,13 +785,13 @@
                   "offset": 38
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:107"
+              "location": "OpenBarFeatures_SD.java:108"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3308811097,
+              "duration": 3165984136,
               "status": "passed"
             },
             "line": 49,
@@ -803,13 +803,13 @@
                   "offset": 16
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:111"
+              "location": "OpenBarFeatures_SD.java:113"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 178702874,
+              "duration": 53529568,
               "status": "passed"
             },
             "line": 50,
@@ -821,13 +821,13 @@
                   "offset": 13
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:115"
+              "location": "OpenBarFeatures_SD.java:117"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 502287606,
+              "duration": 337283917,
               "status": "passed"
             },
             "line": 51,
@@ -843,7 +843,7 @@
                   "offset": 47
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:119"
+              "location": "OpenBarFeatures_SD.java:121"
             },
             "keyword": "Then "
           }
@@ -859,7 +859,7 @@
         "before": [
           {
             "result": {
-              "duration": 85761,
+              "duration": 56778,
               "status": "passed"
             },
             "match": {
@@ -876,7 +876,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3920060270,
+              "duration": 867177449,
               "status": "passed"
             },
             "line": 55,
@@ -894,15 +894,15 @@
           },
           {
             "result": {
-              "duration": 178328087,
+              "duration": 239754957,
               "status": "passed"
             },
             "line": 56,
-            "name": "I waited for Employee Directory Page to load for 5 seconds",
+            "name": "I waited for Employee Directory Page to load for 10 seconds",
             "match": {
               "arguments": [
                 {
-                  "val": "5",
+                  "val": "10",
                   "offset": 49
                 }
               ],
@@ -912,7 +912,7 @@
           },
           {
             "result": {
-              "duration": 1154107638,
+              "duration": 2801583361,
               "status": "passed"
             },
             "line": 57,
@@ -934,7 +934,7 @@
           },
           {
             "result": {
-              "duration": 841582170,
+              "duration": 1944766352,
               "status": "passed"
             },
             "line": 58,
@@ -950,13 +950,13 @@
                   "offset": 35
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:107"
+              "location": "OpenBarFeatures_SD.java:108"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2777456774,
+              "duration": 2765686636,
               "status": "passed"
             },
             "line": 59,
@@ -968,13 +968,13 @@
                   "offset": 16
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:111"
+              "location": "OpenBarFeatures_SD.java:113"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 58659175,
+              "duration": 129869503,
               "status": "passed"
             },
             "line": 60,
@@ -986,13 +986,13 @@
                   "offset": 13
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:115"
+              "location": "OpenBarFeatures_SD.java:117"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 219223297,
+              "duration": 429295405,
               "status": "passed"
             },
             "line": 61,
@@ -1008,19 +1008,19 @@
                   "offset": 77
                 }
               ],
-              "location": "OpenBarFeatures_SD.java:119"
+              "location": "OpenBarFeatures_SD.java:121"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 110449933,
+              "duration": 127585549,
               "status": "passed"
             },
             "line": 62,
             "name": "I close the browser",
             "match": {
-              "location": "OpenBarFeatures_SD.java:134"
+              "location": "OpenBarFeatures_SD.java:136"
             },
             "keyword": "Then "
           }
