@@ -5,4 +5,4 @@ dependencies:
    
    test:  
     override: 
-    	make run_all_in_parallel
+    	- make run_all_in_parallel
