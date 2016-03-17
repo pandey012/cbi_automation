@@ -1,7 +1,10 @@
 package com.cbi.helper;
 
+import java.net.MalformedURLException;
 import java.net.URL;
+
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -9,11 +12,40 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class WebDriverConfig {
 
-	private static WebDriver driver = null;
-	//private static final String SAUCE_URL = "http://hpandey:f0d2ae28-9d83-4248-ba3b-1d54756cbc9e@ondemand.saucelabs.com:80/wd/hub";
-	private static final String SAUCE_URL = "http://hpandey01:af3938ea-00c3-4f9c-97b0-5bf733eccd7b@ondemand.saucelabs.com:80/wd/hub";
 	
-	public static WebDriver getFirefoxDriver() 
+	private  static WebDriver driver = setDriver();
+
+	private static final String SAUCE_URL = "http://hpandey:f0d2ae28-9d83-4248-ba3b-1d54756cbc9e@ondemand.saucelabs.com:80/wd/hub";
+	
+	public static WebDriver setDriver()
+	{
+		if(driver == null)
+		{
+			DesiredCapabilities caps = new DesiredCapabilities();
+	        caps.setCapability("platform", System.getenv("platform"));
+	        caps.setCapability("browserName", System.getenv("browserName"));
+	        caps.setCapability("version", System.getenv("version"));
+	        caps.setCapability("name", "OpenBar Features Test - "+ System.getenv("browserName"));
+		    try {
+		    	driver = new RemoteWebDriver(new URL(SAUCE_URL), caps);
+			} catch (MalformedURLException e) {
+				
+				e.printStackTrace();
+			}
+		}
+		 
+			
+		return driver;
+		 
+	}
+
+	public  WebDriver getDriver()
+	{
+		return driver;
+	}
+	
+	
+	public  static WebDriver getFirefoxDriver() 
 	{
 		
 		DesiredCapabilities caps = DesiredCapabilities.firefox();
@@ -55,30 +87,26 @@ public class WebDriverConfig {
 			
 	}
 	
-	public static WebDriver getIE() 
+	public  WebDriver getIE() 
 	{
 		
-		DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
+		DesiredCapabilities caps =  DesiredCapabilities.internetExplorer();
 	    caps.setCapability("platform", "Windows 10");
 	    caps.setCapability("version", "11");
-	    caps.setCapability("name", "Sauce Sample IE Test");
-		
-	    try{
-	    	
-	    	if(driver == null)
-	    		driver = new RemoteWebDriver(new URL(SAUCE_URL), caps);
+	    caps.setCapability("name", "IE Test Latest");
+	    
 	  
-	    	
-	    }
-		catch(Exception e)
-	    {
-			e.printStackTrace();;
-	    }
+	    try {
+			 driver = new RemoteWebDriver(new URL(SAUCE_URL), caps);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
 	    return driver;
+
 		
 	}
 	
-	public static WebDriver getLocalFirefox()
+	public static  WebDriver getLocalFirefox()
 	{
 		DesiredCapabilities caps = DesiredCapabilities.firefox();
 	    caps.setCapability("platform", "Windows 10");
@@ -96,6 +124,15 @@ public class WebDriverConfig {
 	    }
 	    return driver;
 	}
+
+	public static WebDriver setLocalChromeDriver()
+	{
+		System.setProperty("webdriver.chrome.driver", "/Users/Himanshu/Desktop/Automation/selenium/chromedriver");
+		driver= new ChromeDriver();
+		
+		return driver;
+	}
+
 	
 
 	

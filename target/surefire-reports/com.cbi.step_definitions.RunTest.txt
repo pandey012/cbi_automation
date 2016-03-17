@@ -1,4 +1,46 @@
 -------------------------------------------------------------------------------
 Test set: com.cbi.step_definitions.RunTest
 -------------------------------------------------------------------------------
-Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 77.051 sec
+Tests run: 28, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 78.675 sec <<< FAILURE!
+Then Year in copyright "copyright" should be the current Year(Scenario: I Test for the Footer Notes)  Time elapsed: 0.005 sec  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: Element does not exist in cache (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 672 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'Himanshus-MacBook-Pro.local', ip: '172.22.19.49', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.3', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, safari=true, warnings={}, webdriver.remote.quietExceptions=true, hasMetadata=true, databaseEnabled=false, deviceName=iPhone Simulator, platform=MAC, desired={platformVersion=9.2, webdriver.remote.quietExceptions=true, browserName=safari, platformName=iOS, deviceName=iPhone Simulator}, webdriver.remote.sessionid=ffda772212df4e1d8358863c83934603, platformVersion=9.2, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: ffda772212df4e1d8358863c83934603
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:178)
+	at com.cbi.step_definitions.OpenBarOtherSteps.year_in_copyright_should_be_the_current_Year(OpenBarOtherSteps.java:43)
+	at ✽.Then Year in copyright "copyright" should be the current Year(OpenBarOther.feature:8)
+
+Scenario: I Test for the Footer Notes  Time elapsed: 0.006 sec  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: Element does not exist in cache (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 672 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'Himanshus-MacBook-Pro.local', ip: '172.22.19.49', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.3', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, safari=true, warnings={}, webdriver.remote.quietExceptions=true, hasMetadata=true, databaseEnabled=false, deviceName=iPhone Simulator, platform=MAC, desired={platformVersion=9.2, webdriver.remote.quietExceptions=true, browserName=safari, platformName=iOS, deviceName=iPhone Simulator}, webdriver.remote.sessionid=ffda772212df4e1d8358863c83934603, platformVersion=9.2, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: ffda772212df4e1d8358863c83934603
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:178)
+	at com.cbi.step_definitions.OpenBarOtherSteps.year_in_copyright_should_be_the_current_Year(OpenBarOtherSteps.java:43)
+	at ✽.Then Year in copyright "copyright" should be the current Year(OpenBarOther.feature:8)
+
