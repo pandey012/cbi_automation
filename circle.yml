@@ -3,6 +3,3 @@ dependencies:
     - wget https://saucelabs.com/downloads/sc-latest-linux.tar.gz
     - tar -xzf sc-latest-linux.tar.gz 
    
-   test:  
-    override: 
-    	- make run_all_in_parallel
